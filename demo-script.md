@@ -177,14 +177,16 @@ This demo shows how Cloud Sentinel automatically detects and prevents security m
 - **Security Groups**: 8-12 violations (open ports, unrestricted access)
 - **EC2 Instances**: 6-8 violations (unencrypted storage, IMDSv1)
 - **S3 Buckets**: 4-6 violations (no encryption, public access)
-- **IAM Policies**: 3-4 violations (wildcard permissions)
+- **IAM Policies**: 4-6 violations (wildcard permissions, admin access)
 
 ### **Severity Breakdown:**
 
-- **Critical**: 4-6 issues (admin access, public databases)
-- **High**: 8-12 issues (encryption, network security)
-- **Medium**: 6-10 issues (logging, monitoring)
-- **Low**: 2-4 issues (tagging, naming)
+- **Critical**: 6-8 issues (admin access, public databases, SSH open to world)
+- **High**: 10-15 issues (encryption missing, network security)
+- **Medium**: 8-12 issues (logging, monitoring, versioning)
+- **Low**: 3-5 issues (tagging, naming conventions)
+
+### **Total Expected**: 25-35 violations detected
 
 ---
 

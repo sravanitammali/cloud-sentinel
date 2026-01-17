@@ -85,8 +85,6 @@ resource "aws_security_group" "web_secure" {
 # INSECURE: Web Server Security Group
 # CHECKOV WILL FLAG THIS!
 # -------------------------------------------
-# checkov:skip=CKV_AWS_260: Intentionally insecure for demo
-# checkov:skip=CKV_AWS_24: Intentionally insecure for demo
 resource "aws_security_group" "web_insecure" {
   name        = "${var.project_name}-web-insecure-sg"
   description = "INSECURE security group for demo - SSH open to world"

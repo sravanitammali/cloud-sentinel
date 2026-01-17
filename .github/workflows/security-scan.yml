@@ -56,36 +56,51 @@ jobs:
           framework: terraform
           output_format: cli,json
           output_file_path: console,checkov_results.json
-          soft_fail: true # Don't fail the job, we handle it ourselves
+          soft_fail: true # Don't fail the job for demo purposes
           download_external_modules: true
+          config_file: .checkov.yaml
 
       - name: Process Scan Results
         id: scan
         run: |
+          echo "Processing Checkov scan results..."
+
           if [ -f "checkov_results.json" ]; then
-            # Count violations
-            FAILED=$(cat checkov_results.json | python3 -c "
-          import json, sys
-          data = json.load(sys.stdin)
-          if isinstance(data, list):
-              total = sum(len(d.get('results', {}).get('failed_checks', [])) for d in data)
-          else:
-              total = len(data.get('results', {}).get('failed_checks', []))
-          print(total)
+            # Count violations using a more robust method
+            FAILED=$(python3 -c "
+          import json, sys, os
+          try:
+              with open('checkov_results.json', 'r') as f:
+                  data = json.load(f)
+              
+              total_failed = 0
+              if isinstance(data, list):
+                  for item in data:
+                      if 'results' in item and 'failed_checks' in item['results']:
+                          total_failed += len(item['results']['failed_checks'])
+              elif isinstance(data, dict):
+                  if 'results' in data and 'failed_checks' in data['results']:
+                      total_failed = len(data['results']['failed_checks'])
+              
+              print(total_failed)
+          except Exception as e:
+              print('0')
           " 2>/dev/null || echo "0")
             
             echo "violations=$FAILED" >> $GITHUB_OUTPUT
+            echo "Found $FAILED security violations"
             
             if [ "$FAILED" -gt "0" ]; then
               echo "status=failed" >> $GITHUB_OUTPUT
-              echo "::warning::Found $FAILED security violations!"
+              echo "::warning::🚨 Found $FAILED security violations! This demonstrates our scanner working correctly."
             else
               echo "status=passed" >> $GITHUB_OUTPUT
-              echo "::notice::No security violations found!"
+              echo "::notice::✅ No security violations found!"
             fi
           else
             echo "status=unknown" >> $GITHUB_OUTPUT
             echo "violations=0" >> $GITHUB_OUTPUT
+            echo "::warning::Checkov results file not found"
           fi
 
       - name: Upload Scan Results
@@ -104,16 +119,27 @@ jobs:
           echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
           echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
           echo "| Status | ${{ steps.scan.outputs.status }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Violations | ${{ steps.scan.outputs.violations }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Violations Found | **${{ steps.scan.outputs.violations }}** |" >> $GITHUB_STEP_SUMMARY
           echo "| Commit | ${{ github.sha }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Branch | ${{ github.ref_name }} |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
           if [ "${{ steps.scan.outputs.status }}" == "failed" ]; then
-            echo "### ⚠️ Security Issues Found" >> $GITHUB_STEP_SUMMARY
-            echo "Please review the Checkov output above for details." >> $GITHUB_STEP_SUMMARY
+            echo "### 🚨 Security Issues Detected" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**${{ steps.scan.outputs.violations }} security violations found!**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "This demonstrates our DevSecOps scanner successfully detecting:" >> $GITHUB_STEP_SUMMARY
+            echo "- 🔓 Open SSH access (0.0.0.0/0)" >> $GITHUB_STEP_SUMMARY
+            echo "- 🔒 Unencrypted storage volumes" >> $GITHUB_STEP_SUMMARY
+            echo "- 🌐 Public database access" >> $GITHUB_STEP_SUMMARY
+            echo "- 🔑 Overly permissive IAM policies" >> $GITHUB_STEP_SUMMARY
+            echo "- 📦 Insecure S3 bucket configurations" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "In production, these violations would block deployment until resolved." >> $GITHUB_STEP_SUMMARY
           else
             echo "### ✅ No Security Issues Found" >> $GITHUB_STEP_SUMMARY
+            echo "All infrastructure configurations passed security validation." >> $GITHUB_STEP_SUMMARY
           fi
 
   # -------------------------------------------
@@ -164,14 +190,25 @@ jobs:
           VIOLATIONS="${{ needs.security-scan.outputs.violations_found }}"
           STATUS="${{ needs.security-scan.outputs.scan_status }}"
 
+          echo "**Violations Found:** $VIOLATIONS" >> $GITHUB_STEP_SUMMARY
+          echo "**Scan Status:** $STATUS" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
           # For demo purposes, we warn but don't block
           # In production, you would fail the job here
-          if [ "$STATUS" == "failed" ]; then
-            echo "### ⚠️ Security Gate: WARNING" >> $GITHUB_STEP_SUMMARY
-            echo "Found $VIOLATIONS security violations." >> $GITHUB_STEP_SUMMARY
+          if [ "$STATUS" == "failed" ] && [ "$VIOLATIONS" -gt "0" ]; then
+            echo "### 🚨 Security Gate: VIOLATIONS DETECTED" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
-            echo "In production, this would block the deployment." >> $GITHUB_STEP_SUMMARY
-            echo "::warning::Security gate triggered - $VIOLATIONS violations found"
+            echo "**$VIOLATIONS security violations found in infrastructure code!**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "🔍 **This demonstrates our DevSecOps scanner working correctly:**" >> $GITHUB_STEP_SUMMARY
+            echo "- Automatically detected security misconfigurations" >> $GITHUB_STEP_SUMMARY
+            echo "- Scanned Infrastructure-as-Code before deployment" >> $GITHUB_STEP_SUMMARY
+            echo "- Would block insecure infrastructure in production" >> $GITHUB_STEP_SUMMARY
+            echo "- Provides detailed violation reports for remediation" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "⚠️ **In production environment, this pipeline would FAIL and block deployment.**" >> $GITHUB_STEP_SUMMARY
+            echo "::warning::🚨 DEMO SUCCESS: Security gate triggered - $VIOLATIONS violations detected!"
             # Uncomment the next line to actually block deployments:
             # exit 1
           else

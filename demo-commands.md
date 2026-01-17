@@ -109,11 +109,41 @@ cd cloud-sentinel
 # List Terraform files to show what we're scanning
 ls -la terraform/
 
+# Optional: Test the configuration first
+python3 test-scan.py
+
 # Run security scan on Terraform code
 checkov -d terraform/
 ```
 
 **Expected Output (Sample):**
+
+```
+🛡️  Cloud Sentinel - Configuration Test
+==================================================
+📋 Checking configuration files...
+==================================================
+✅ .checkov.yaml: soft-fail enabled for demo
+✅ .checkov.yaml: no checks skipped
+✅ GitHub Actions workflow found
+==================================================
+🔍 Testing Checkov configuration...
+==================================================
+✅ Passed checks: 45
+❌ Failed checks: 28
+==================================================
+🎯 SUCCESS: Checkov detected security violations!
+   Expected violations in:
+   - Security groups (SSH open to 0.0.0.0/0)
+   - EC2 instances (unencrypted EBS)
+   - S3 buckets (no encryption/public access)
+   - IAM policies (wildcard permissions)
+
+🎉 Configuration test PASSED!
+   Your GitHub Actions pipeline should now detect violations.
+```
+
+**Then the full Checkov scan:**
 
 ```
        _               _
@@ -126,7 +156,7 @@ By bridgecrew.io | version: 2.5.x
 
 terraform scan results:
 
-Passed checks: 45, Failed checks: 28, Skipped checks: 3
+Passed checks: 45, Failed checks: 28, Skipped checks: 0
 
 Check: CKV_AWS_24: "Ensure no security groups allow ingress from 0.0.0.0/0 to port 22"
 	FAILED for resource: aws_security_group.web_insecure
@@ -278,10 +308,10 @@ aws ec2 describe-instances --filters "Name=tag:Name,Values=cloud-sentinel-contro
 
 ### **Violation Counts:**
 
-- **Total Checks**: ~75-85
-- **Passed**: ~45-50
+- **Total Checks**: ~80-90
+- **Passed**: ~45-55
 - **Failed**: ~25-35
-- **Skipped**: ~3-5
+- **Skipped**: 0 (all violations now detected)
 
 ### **Key Violations to Highlight:**
 
