@@ -1,0 +1,22 @@
+# ===========================================
+# CLOUD SENTINEL - Terraform Variables
+# ===========================================
+# Copy this file to terraform.tfvars and update values
+
+# AWS Configuration
+aws_region = "ap-south-1"
+
+# Project Configuration
+project_name = "cloud-sentinel"
+environment  = "dev"
+
+# EC2 Configuration
+ec2_ami_id        = "ami-0f5ee92e2d63afc18"  # Ubuntu 22.04 in ap-south-1
+ec2_instance_type = "t2.micro"
+key_pair_name     = "cloud-sentinel-key"
+
+# Network Configuration
+vpc_cidr             = "10.0.0.0/16"
+public_subnet_cidrs  = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs = ["10.0.10.0/24", "10.0.20.0/24"]
+availability_zones   = ["ap-south-1a", "ap-south-1b"]

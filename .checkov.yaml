@@ -1,0 +1,43 @@
+# ===========================================
+# CLOUD SENTINEL - Checkov Configuration
+# ===========================================
+
+# Frameworks to scan
+framework:
+  - terraform
+
+# Output format
+output:
+  - cli
+  - json
+
+# Compact output
+compact: true
+
+# Directory to scan (relative to where checkov is run)
+directory:
+  - terraform
+
+# Checks to skip (use sparingly!)
+# These are skipped because they're intentionally insecure for demo
+skip-check:
+  # Uncomment these if you want to skip the intentional vulnerabilities
+  # - CKV_AWS_260  # Security group allows ingress from 0.0.0.0/0 to port 22
+  # - CKV_AWS_24   # Security group allows ingress from 0.0.0.0/0 to port 22
+  # - CKV_AWS_23   # Security group allows ingress from 0.0.0.0/0 to port 3389
+
+# Soft fail - don't exit with error code on failures
+# Set to false in production!
+soft-fail: false
+
+# Download external modules
+download-external-modules: true
+
+# Evaluate variables
+evaluate-variables: true
+
+# Enable secrets scanning
+enable-secret-scan-all-files: true
+# Custom policies directory (for future use)
+# external-checks-dir:
+#   - custom_policies/
