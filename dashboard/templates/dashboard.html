@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Sentinel - Security Dashboard</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #0f0f23;
+        color: #e0e0e0;
+      }
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 30px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+      }
+      .header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+      .header p {
+        opacity: 0.9;
+        font-size: 1.1em;
+      }
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-bottom: 30px;
+      }
+      .stat-card {
+        background: #1a1a2e;
+        padding: 25px;
+        border-radius: 15px;
+        border: 1px solid #2a2a3e;
+        transition: transform 0.3s;
+      }
+      .stat-card:hover {
+        transform: translateY(-5px);
+        border-color: #667eea;
+      }
+      .stat-card h3 {
+        color: #888;
+        font-size: 0.9em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      .stat-card .number {
+        font-size: 2.5em;
+        font-weight: bold;
+      }
+      .stat-card.critical .number {
+        color: #ff4757;
+      }
+      .stat-card.high .number {
+        color: #ffa502;
+      }
+      .stat-card.medium .number {
+        color: #ffd32a;
+      }
+      .stat-card.total .number {
+        color: #667eea;
+      }
+      .section {
+        background: #1a1a2e;
+        padding: 30px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        border: 1px solid #2a2a3e;
+      }
+      .section h2 {
+        color: #667eea;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #667eea;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #2a2a3e;
+      }
+      th {
+        background: #667eea;
+        color: white;
+        font-weight: 600;
+      }
+      tr:hover {
+        background: #2a2a3e;
+      }
+      .severity {
+        padding: 5px 12px;
+        border-radius: 20px;
+        font-size: 0.85em;
+        font-weight: bold;
+      }
+      .severity.critical {
+        background: #ff4757;
+        color: white;
+      }
+      .severity.high {
+        background: #ffa502;
+        color: white;
+      }
+      .severity.medium {
+        background: #ffd32a;
+        color: #000;
+      }
+      .btn {
+        background: #667eea;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background 0.3s;
+      }
+      .btn:hover {
+        background: #764ba2;
+      }
+      .loading {
+        text-align: center;
+        padding: 40px;
+        color: #667eea;
+      }
+      .refresh-btn {
+        float: right;
+      }
+      code {
+        background: #2a2a3e;
+        padding: 2px 6px;
+        border-radius: 4px;
+        color: #ffa502;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🛡️ Cloud Sentinel</h1>
+        <p>Real-time DevSecOps Security Monitoring</p>
+        <p id="last-updated">Last updated: Loading...</p>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card total">
+          <h3>Total Violations</h3>
+          <div class="number" id="total-violations">-</div>
+        </div>
+        <div class="stat-card critical">
+          <h3>Critical</h3>
+          <div class="number" id="critical-count">-</div>
+        </div>
+        <div class="stat-card high">
+          <h3>High</h3>
+          <div class="number" id="high-count">-</div>
+        </div>
+        <div class="stat-card medium">
+          <h3>Medium</h3>
+          <div class="number" id="medium-count">-</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>📊 Violations by Framework</h2>
+        <div id="framework-chart"></div>
+      </div>
+
+      <div class="section">
+        <h2>
+          🔍 Recent Violations
+          <button class="btn refresh-btn" onclick="loadData()">
+            🔄 Refresh
+          </button>
+        </h2>
+        <div id="violations-table">
+          <div class="loading">Loading violations...</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>⚡ Actions</h2>
+        <button
+          class="btn"
+          onclick="triggerPipeline()"
+          style="
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            font-size: 1.1em;
+            padding: 15px 30px;
+          "
+        >
+          🚀 Run Full Pipeline
+        </button>
+        <button
+          class="btn"
+          onclick="triggerScan()"
+          style="margin-left: 10px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+        >
+          🔍 Run Quick Scan
+        </button>
+          🚀 Run Full Pipeline
+        </button>
+        <button
+          class="btn"
+          onclick="window.open('/reports', '_blank')"
+          style="margin-left: 10px; background: #555"
+        >
+          📄 View Reports
+        </button>
+      </div>
+    </div>
+
+    <script>
+      async function loadData() {
+        try {
+          // Load summary
+          const summaryRes = await fetch("/api/summary");
+          const summary = await summaryRes.json();
+
+          document.getElementById("total-violations").textContent =
+            summary.total_violations;
+          document.getElementById("critical-count").textContent =
+            summary.by_severity.CRITICAL || 0;
+          document.getElementById("high-count").textContent =
+            summary.by_severity.HIGH || 0;
+          document.getElementById("medium-count").textContent =
+            summary.by_severity.MEDIUM || 0;
+          document.getElementById("last-updated").textContent =
+            `Last updated: ${new Date(summary.last_updated).toLocaleString()}`;
+
+          // Load framework chart
+          const frameworks = summary.by_framework;
+          let chartHTML =
+            '<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">';
+          for (const [framework, count] of Object.entries(frameworks)) {
+            const percentage = (
+              (count / summary.total_violations) *
+              100
+            ).toFixed(1);
+            chartHTML += `
+                        <div style="text-align: center; padding: 20px; background: #2a2a3e; border-radius: 10px;">
+                            <h3 style="color: #667eea; text-transform: capitalize;">${framework}</h3>
+                            <div style="font-size: 2em; margin: 10px 0;">${count}</div>
+                            <div style="color: #888;">${percentage}%</div>
+                        </div>
+                    `;
+          }
+          chartHTML += "</div>";
+          document.getElementById("framework-chart").innerHTML = chartHTML;
+
+          // Load violations
+          const violationsRes = await fetch("/api/violations?limit=20");
+          const violations = await violationsRes.json();
+
+          let tableHTML = `
+                    <table>
+                        <tr>
+                            <th>Framework</th>
+                            <th>Check ID</th>
+                            <th>Resource</th>
+                            <th>Severity</th>
+                            <th>Description</th>
+                            <th>Time</th>
+                        </tr>
+                `;
+
+          violations.forEach((v) => {
+            const time = new Date(v.timestamp).toLocaleString();
+            tableHTML += `
+                        <tr>
+                            <td><strong>${v.framework}</strong></td>
+                            <td><code>${v.check_id}</code></td>
+                            <td>${v.resource_name}</td>
+                            <td><span class="severity ${v.severity.toLowerCase()}">${v.severity}</span></td>
+                            <td>${v.description}</td>
+                            <td>${time}</td>
+                        </tr>
+                    `;
+          });
+
+          tableHTML += "</table>";
+          document.getElementById("violations-table").innerHTML = tableHTML;
+        } catch (error) {
+          console.error("Error loading data:", error);
+          document.getElementById("violations-table").innerHTML =
+            '<div class="loading">Error loading data</div>';
+        }
+      }
+
+      async function triggerScan() {
+        if (!confirm("Start a new security scan? This may take a few minutes."))
+          return;
+
+        const btn = event.target;
+        btn.disabled = true;
+        btn.textContent = "⏳ Scanning...";
+
+        try {
+          const res = await fetch("/api/scan", { method: "POST" });
+          const result = await res.json();
+
+          alert(result.message || "Scan completed!");
+          loadData();
+        } catch (error) {
+          alert("Scan failed: " + error.message);
+        } finally {
+          btn.disabled = false;
+          btn.textContent = "🔍 Run Quick Scan";
+        }
+      }
+
+      async function triggerPipeline() {
+        if (
+          !confirm(
+            "🚀 Run Full DevSecOps Pipeline?\n\nThis will:\n1. Run initial scan\n2. Generate & email report\n3. Attempt auto-remediation\n4. Re-scan\n5. Generate & email final report\n\nThis may take 5-10 minutes. Continue?",
+          )
+        )
+          return;
+
+        const btn = event.target;
+        btn.disabled = true;
+        btn.textContent = "⏳ Running Pipeline...";
+
+        try {
+          const res = await fetch("/api/pipeline", { method: "POST" });
+          const result = await res.json();
+
+          if (result.status === "success") {
+            alert(
+              "🎉 Pipeline completed successfully!\n\n✅ Initial scan & report sent\n✅ Auto-remediation attempted\n✅ Final scan & report sent\n\nCheck your email for both reports!",
+            );
+          } else {
+            alert("❌ Pipeline failed:\n\n" + result.message);
+          }
+          loadData();
+        } catch (error) {
+          alert("Pipeline failed: " + error.message);
+        } finally {
+          btn.disabled = false;
+          btn.textContent = "🚀 Run Full Pipeline";
+        }
+      }
+
+      // Load data on page load
+      loadData();
+
+      // Auto-refresh every 30 seconds
+      setInterval(loadData, 30000);
+    </script>
+  </body>
+</html>
