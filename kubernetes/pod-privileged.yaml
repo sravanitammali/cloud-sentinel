@@ -1,0 +1,29 @@
+# ===========================================
+# INSECURE Pod with Multiple Vulnerabilities
+# ===========================================
+apiVersion: v1
+kind: Pod
+metadata:
+  name: privileged-pod
+spec:
+  hostNetwork: true # VULNERABILITY: Host network access
+  hostPID: true # VULNERABILITY: Host PID namespace
+  hostIPC: true # VULNERABILITY: Host IPC namespace
+  containers:
+    - name: privileged-container
+      image: ubuntu:latest
+      command: ["/bin/sh"]
+      args: ["-c", "sleep 3600"]
+      securityContext:
+        privileged: true
+        capabilities:
+          add:
+            - SYS_ADMIN # VULNERABILITY: Dangerous capability
+            - NET_ADMIN
+      volumeMounts:
+        - name: host-root
+          mountPath: /host
+  volumes:
+    - name: host-root
+      hostPath:
+        path: / # VULNERABILITY: Mounting host root filesystem

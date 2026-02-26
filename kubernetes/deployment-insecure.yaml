@@ -1,0 +1,36 @@
+# ===========================================
+# INSECURE Kubernetes Deployment
+# CHECKOV WILL FLAG MULTIPLE ISSUES!
+# ===========================================
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: insecure-web-app
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: insecure-web
+  template:
+    metadata:
+      labels:
+        app: insecure-web
+    spec:
+      # VULNERABILITY: No security context
+      containers:
+        - name: nginx
+          image: nginx:latest # VULNERABILITY: Using 'latest' tag
+          ports:
+            - containerPort: 80
+          securityContext:
+            privileged: true # VULNERABILITY: Privileged container
+            runAsUser: 0 # VULNERABILITY: Running as root
+            allowPrivilegeEscalation: true # VULNERABILITY: Privilege escalation allowed
+          # VULNERABILITY: No resource limits
+          env:
+            - name: DB_PASSWORD
+              value: "hardcoded_password123" # VULNERABILITY: Hardcoded secret
+          # VULNERABILITY: No liveness/readiness probes
+      # VULNERABILITY: No service account specified
+      automountServiceAccountToken: true # VULNERABILITY: Auto-mount enabled
