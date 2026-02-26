@@ -1,0 +1,30 @@
+# ===========================================
+# INSECURE Web Application Dockerfile
+# Multiple Security Issues
+# ===========================================
+
+FROM node:latest
+
+# VULNERABILITY: Running as root
+WORKDIR /usr/src/app
+
+# VULNERABILITY: Copying package files with potential vulnerabilities
+COPY package*.json ./
+
+# VULNERABILITY: No integrity check
+RUN npm install
+
+# VULNERABILITY: Copying all files (including secrets)
+COPY . .
+
+# VULNERABILITY: Hardcoded credentials
+ENV DATABASE_URL="postgresql://admin:password@db:5432/myapp"
+ENV JWT_SECRET="my-super-secret-jwt-key"
+
+# VULNERABILITY: Exposing debug port
+EXPOSE 3000
+EXPOSE 9229
+
+# VULNERABILITY: No healthcheck
+# VULNERABILITY: Running as root
+CMD ["node", "server.js"]

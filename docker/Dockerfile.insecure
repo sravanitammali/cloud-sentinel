@@ -1,0 +1,35 @@
+# ===========================================
+# INSECURE Dockerfile
+# CHECKOV WILL FLAG MULTIPLE ISSUES!
+# ===========================================
+
+# VULNERABILITY: Using 'latest' tag
+FROM ubuntu:latest
+
+# VULNERABILITY: Running as root (no USER directive)
+
+# VULNERABILITY: Hardcoded secrets
+ENV DB_PASSWORD="super_secret_password_123"
+ENV API_KEY="sk-1234567890abcdef"
+
+# VULNERABILITY: Installing unnecessary packages
+RUN apt-get update && apt-get install -y \
+    curl \
+    wget \
+    vim \
+    sudo \
+    && rm -rf /var/lib/apt/lists/*
+
+# VULNERABILITY: Exposing unnecessary ports
+EXPOSE 22
+EXPOSE 3306
+EXPOSE 5432
+
+# VULNERABILITY: Using ADD instead of COPY
+ADD https://example.com/app.tar.gz /app/
+
+# VULNERABILITY: No HEALTHCHECK
+WORKDIR /app
+
+# VULNERABILITY: Running as root
+CMD ["/bin/bash"]
