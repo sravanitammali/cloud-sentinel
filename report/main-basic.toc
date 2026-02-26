@@ -1,0 +1,188 @@
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{4}{}%
+\contentsline {section}{\numberline {1.1}Overview}{4}{}%
+\contentsline {section}{\numberline {1.2}Motivation}{5}{}%
+\contentsline {subsection}{\numberline {1.2.1}Prevalence of Cloud Misconfigurations}{5}{}%
+\contentsline {subsection}{\numberline {1.2.2}DevOps-Security Gap}{5}{}%
+\contentsline {subsection}{\numberline {1.2.3}Compliance Requirements}{5}{}%
+\contentsline {subsection}{\numberline {1.2.4}Cost of Security Breaches}{6}{}%
+\contentsline {subsection}{\numberline {1.2.5}Skills Gap}{6}{}%
+\contentsline {section}{\numberline {1.3}Problem Statement}{6}{}%
+\contentsline {section}{\numberline {1.4}Objectives}{7}{}%
+\contentsline {section}{\numberline {1.5}Scope}{8}{}%
+\contentsline {subsection}{\numberline {1.5.1}In Scope}{8}{}%
+\contentsline {subsection}{\numberline {1.5.2}Out of Scope}{8}{}%
+\contentsline {section}{\numberline {1.6}Organization of Report}{9}{}%
+\contentsline {section}{\numberline {1.7}Summary}{9}{}%
+\contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{11}{}%
+\contentsline {section}{\numberline {2.1}Introduction}{11}{}%
+\contentsline {section}{\numberline {2.2}Cloud Security Challenges and Misconfigurations}{11}{}%
+\contentsline {subsection}{\numberline {2.2.1}Cloud Security Landscape}{11}{}%
+\contentsline {subsection}{\numberline {2.2.2}Common Cloud Misconfigurations}{12}{}%
+\contentsline {section}{\numberline {2.3}Infrastructure-as-Code Security}{12}{}%
+\contentsline {subsection}{\numberline {2.3.1}IaC Security Challenges}{12}{}%
+\contentsline {subsection}{\numberline {2.3.2}Terraform Security Best Practices}{13}{}%
+\contentsline {section}{\numberline {2.4}DevSecOps Practices and Methodologies}{13}{}%
+\contentsline {subsection}{\numberline {2.4.1}Shift-Left Security}{13}{}%
+\contentsline {subsection}{\numberline {2.4.2}Security in CI/CD Pipelines}{14}{}%
+\contentsline {section}{\numberline {2.5}Automated Security Scanning Tools}{14}{}%
+\contentsline {subsection}{\numberline {2.5.1}Static Analysis Tools for IaC}{14}{}%
+\contentsline {subsubsection}{Checkov}{14}{}%
+\contentsline {subsubsection}{Terraform Sentinel}{15}{}%
+\contentsline {subsubsection}{TFLint}{15}{}%
+\contentsline {subsection}{\numberline {2.5.2}Cloud Security Posture Management (CSPM)}{15}{}%
+\contentsline {subsubsection}{Prisma Cloud}{15}{}%
+\contentsline {subsubsection}{AWS Security Hub}{15}{}%
+\contentsline {subsection}{\numberline {2.5.3}Comparison with Cloud Sentinel}{15}{}%
+\contentsline {section}{\numberline {2.6}Security Policy Enforcement}{16}{}%
+\contentsline {subsection}{\numberline {2.6.1}Policy-as-Code}{16}{}%
+\contentsline {subsection}{\numberline {2.6.2}Security Gates in CI/CD}{16}{}%
+\contentsline {section}{\numberline {2.7}Compliance and Audit Requirements}{16}{}%
+\contentsline {subsection}{\numberline {2.7.1}Regulatory Frameworks}{16}{}%
+\contentsline {subsubsection}{CIS Benchmarks}{17}{}%
+\contentsline {subsubsection}{NIST Cybersecurity Framework}{17}{}%
+\contentsline {subsection}{\numberline {2.7.2}Audit Trail Requirements}{17}{}%
+\contentsline {section}{\numberline {2.8}Research Gaps and Contributions}{17}{}%
+\contentsline {section}{\numberline {2.9}Summary}{18}{}%
+\contentsline {chapter}{\numberline {3}SYSTEM DESIGN}{19}{}%
+\contentsline {section}{\numberline {3.1}Introduction}{19}{}%
+\contentsline {section}{\numberline {3.2}System Architecture}{19}{}%
+\contentsline {subsection}{\numberline {3.2.1}High-Level Architecture}{19}{}%
+\contentsline {subsection}{\numberline {3.2.2}Component Architecture}{19}{}%
+\contentsline {subsubsection}{Infrastructure-as-Code Repository}{20}{}%
+\contentsline {subsubsection}{CI/CD Pipeline}{20}{}%
+\contentsline {subsubsection}{Security Scanner}{20}{}%
+\contentsline {subsubsection}{Logging Database}{20}{}%
+\contentsline {subsubsection}{AWS Infrastructure}{21}{}%
+\contentsline {section}{\numberline {3.3}Detailed Component Design}{21}{}%
+\contentsline {subsection}{\numberline {3.3.1}GitHub Actions Workflow}{21}{}%
+\contentsline {subsubsection}{Job 1: Security Scan}{21}{}%
+\contentsline {subsubsection}{Job 2: Terraform Validation}{22}{}%
+\contentsline {subsubsection}{Job 3: Security Gate}{22}{}%
+\contentsline {subsection}{\numberline {3.3.2}Checkov Configuration}{22}{}%
+\contentsline {subsection}{\numberline {3.3.3}Database Schema}{22}{}%
+\contentsline {subsubsection}{Scans Table}{22}{}%
+\contentsline {subsubsection}{Violations Table}{23}{}%
+\contentsline {subsection}{\numberline {3.3.4}AWS Infrastructure Design}{23}{}%
+\contentsline {subsubsection}{Network Architecture}{23}{}%
+\contentsline {subsubsection}{Security Groups Design}{23}{}%
+\contentsline {subsubsection}{EC2 Instance Design}{24}{}%
+\contentsline {subsubsection}{S3 Bucket Design}{24}{}%
+\contentsline {subsubsection}{IAM Design}{25}{}%
+\contentsline {section}{\numberline {3.4}System Workflow}{25}{}%
+\contentsline {subsection}{\numberline {3.4.1}Development Workflow}{25}{}%
+\contentsline {subsection}{\numberline {3.4.2}Scanning Workflow}{26}{}%
+\contentsline {subsection}{\numberline {3.4.3}Cost Management Workflow}{27}{}%
+\contentsline {section}{\numberline {3.5}Technology Stack}{27}{}%
+\contentsline {subsection}{\numberline {3.5.1}Infrastructure Layer}{27}{}%
+\contentsline {subsection}{\numberline {3.5.2}CI/CD Layer}{28}{}%
+\contentsline {subsection}{\numberline {3.5.3}Security Layer}{28}{}%
+\contentsline {subsection}{\numberline {3.5.4}Data Layer}{28}{}%
+\contentsline {subsection}{\numberline {3.5.5}Management Layer}{28}{}%
+\contentsline {section}{\numberline {3.6}Security Considerations}{29}{}%
+\contentsline {subsection}{\numberline {3.6.1}Secrets Management}{29}{}%
+\contentsline {subsection}{\numberline {3.6.2}Access Control}{29}{}%
+\contentsline {subsection}{\numberline {3.6.3}Audit and Compliance}{29}{}%
+\contentsline {section}{\numberline {3.7}Scalability and Extensibility}{29}{}%
+\contentsline {subsection}{\numberline {3.7.1}Scalability}{29}{}%
+\contentsline {subsection}{\numberline {3.7.2}Extensibility}{30}{}%
+\contentsline {section}{\numberline {3.8}Summary}{30}{}%
+\contentsline {chapter}{\numberline {4}IMPLEMENTATION}{32}{}%
+\contentsline {section}{\numberline {4.1}Introduction}{32}{}%
+\contentsline {section}{\numberline {4.2}Development Environment Setup}{32}{}%
+\contentsline {subsection}{\numberline {4.2.1}Prerequisites}{32}{}%
+\contentsline {subsection}{\numberline {4.2.2}AWS Account Configuration}{32}{}%
+\contentsline {subsection}{\numberline {4.2.3}GitHub Repository Setup}{33}{}%
+\contentsline {section}{\numberline {4.3}Terraform Infrastructure Implementation}{33}{}%
+\contentsline {subsection}{\numberline {4.3.1}Project Structure}{33}{}%
+\contentsline {subsection}{\numberline {4.3.2}Provider Configuration}{33}{}%
+\contentsline {subsection}{\numberline {4.3.3}VPC and Networking Implementation}{33}{}%
+\contentsline {subsection}{\numberline {4.3.4}Security Groups Implementation}{34}{}%
+\contentsline {subsection}{\numberline {4.3.5}EC2 Instances Implementation}{34}{}%
+\contentsline {subsection}{\numberline {4.3.6}S3 Buckets Implementation}{34}{}%
+\contentsline {subsection}{\numberline {4.3.7}IAM Implementation}{35}{}%
+\contentsline {subsection}{\numberline {4.3.8}Terraform Deployment}{35}{}%
+\contentsline {section}{\numberline {4.4}Checkov Security Scanner Configuration}{36}{}%
+\contentsline {subsection}{\numberline {4.4.1}Installation}{36}{}%
+\contentsline {subsection}{\numberline {4.4.2}Configuration File}{36}{}%
+\contentsline {subsection}{\numberline {4.4.3}Manual Scanning}{36}{}%
+\contentsline {section}{\numberline {4.5}GitHub Actions CI/CD Pipeline Implementation}{36}{}%
+\contentsline {subsection}{\numberline {4.5.1}Workflow File Structure}{36}{}%
+\contentsline {section}{\numberline {4.6}GitHub Actions CI/CD Pipeline Implementation}{37}{}%
+\contentsline {subsection}{\numberline {4.6.1}Workflow File Structure}{37}{}%
+\contentsline {subsection}{\numberline {4.6.2}Security Scan Job Implementation}{37}{}%
+\contentsline {subsection}{\numberline {4.6.3}Terraform Validation Job}{38}{}%
+\contentsline {subsection}{\numberline {4.6.4}Security Gate Implementation}{38}{}%
+\contentsline {section}{\numberline {4.7}Database Implementation}{38}{}%
+\contentsline {subsection}{\numberline {4.7.1}Schema Design}{38}{}%
+\contentsline {subsection}{\numberline {4.7.2}Python Scanner Script}{39}{}%
+\contentsline {section}{\numberline {4.8}Management Scripts Implementation}{40}{}%
+\contentsline {subsection}{\numberline {4.8.1}Instance Start Script}{40}{}%
+\contentsline {subsection}{\numberline {4.8.2}Instance Stop Script}{40}{}%
+\contentsline {subsection}{\numberline {4.8.3}Status Check Script}{40}{}%
+\contentsline {section}{\numberline {4.9}Testing and Validation}{41}{}%
+\contentsline {subsection}{\numberline {4.9.1}Unit Testing}{41}{}%
+\contentsline {subsection}{\numberline {4.9.2}Integration Testing}{42}{}%
+\contentsline {section}{\numberline {4.10}Implementation Challenges and Solutions}{42}{}%
+\contentsline {subsection}{\numberline {4.10.1}Challenge 1: Checkov Skip Comments}{42}{}%
+\contentsline {subsection}{\numberline {4.10.2}Challenge 2: GitHub Actions Configuration}{43}{}%
+\contentsline {subsection}{\numberline {4.10.3}Challenge 3: Cost Management}{43}{}%
+\contentsline {subsection}{\numberline {4.10.4}Challenge 4: Database Integration}{43}{}%
+\contentsline {section}{\numberline {4.11}Summary}{43}{}%
+\contentsline {chapter}{\numberline {5}RESULTS AND DISCUSSION}{44}{}%
+\contentsline {section}{\numberline {5.1}Introduction}{44}{}%
+\contentsline {section}{\numberline {5.2}Security Scan Results}{44}{}%
+\contentsline {subsection}{\numberline {5.2.1}Overall Scan Statistics}{44}{}%
+\contentsline {subsection}{\numberline {5.2.2}Violations by Category}{44}{}%
+\contentsline {subsection}{\numberline {5.2.3}Violations by Severity}{44}{}%
+\contentsline {section}{\numberline {5.3}Detailed Violation Analysis}{46}{}%
+\contentsline {subsection}{\numberline {5.3.1}Network Security Violations}{46}{}%
+\contentsline {subsubsection}{SSH Access from Internet (CKV\_AWS\_24)}{46}{}%
+\contentsline {subsubsection}{Unrestricted Ingress (CKV\_AWS\_260)}{46}{}%
+\contentsline {subsection}{\numberline {5.3.2}Encryption Violations}{47}{}%
+\contentsline {subsubsection}{Unencrypted EBS Volumes (CKV\_AWS\_8)}{47}{}%
+\contentsline {subsubsection}{Unencrypted S3 Buckets (CKV\_AWS\_19)}{47}{}%
+\contentsline {subsection}{\numberline {5.3.3}IAM Security Violations}{47}{}%
+\contentsline {subsubsection}{Wildcard IAM Permissions (CKV\_AWS\_1, CKV2\_AWS\_40)}{47}{}%
+\contentsline {subsubsection}{Missing IAM Roles (CKV2\_AWS\_41)}{48}{}%
+\contentsline {subsection}{\numberline {5.3.4}Storage Security Violations}{48}{}%
+\contentsline {subsubsection}{S3 Public Access Not Blocked (CKV\_AWS\_53)}{48}{}%
+\contentsline {subsubsection}{S3 Versioning Disabled (CKV\_AWS\_21)}{48}{}%
+\contentsline {subsection}{\numberline {5.3.5}Instance Metadata Violations}{48}{}%
+\contentsline {subsubsection}{IMDSv1 Enabled (CKV\_AWS\_79)}{48}{}%
+\contentsline {section}{\numberline {5.4}GitHub Actions Pipeline Results}{49}{}%
+\contentsline {subsection}{\numberline {5.4.1}Pipeline Execution Metrics}{49}{}%
+\contentsline {subsection}{\numberline {5.4.2}Pipeline Workflow Results}{49}{}%
+\contentsline {subsection}{\numberline {5.4.3}Security Gate Behavior}{49}{}%
+\contentsline {section}{\numberline {5.5}Cost Analysis}{49}{}%
+\contentsline {subsection}{\numberline {5.5.1}Infrastructure Costs}{49}{}%
+\contentsline {section}{\numberline {5.6}Performance Evaluation}{51}{}%
+\contentsline {subsection}{\numberline {5.6.1}Scanning Performance}{51}{}%
+\contentsline {subsection}{\numberline {5.6.2}CI/CD Integration Impact}{51}{}%
+\contentsline {section}{\numberline {5.7}Comparison with Manual Review}{51}{}%
+\contentsline {subsection}{\numberline {5.7.1}Efficiency Comparison}{51}{}%
+\contentsline {section}{\numberline {5.8}Effectiveness Analysis}{53}{}%
+\contentsline {subsection}{\numberline {5.8.1}Detection Accuracy}{53}{}%
+\contentsline {subsection}{\numberline {5.8.2}Coverage Analysis}{53}{}%
+\contentsline {section}{\numberline {5.9}Compliance Validation}{53}{}%
+\contentsline {subsection}{\numberline {5.9.1}CIS Benchmark Compliance}{53}{}%
+\contentsline {subsection}{\numberline {5.9.2}Regulatory Framework Mapping}{53}{}%
+\contentsline {section}{\numberline {5.10}Discussion}{54}{}%
+\contentsline {subsection}{\numberline {5.10.1}Key Findings}{54}{}%
+\contentsline {subsubsection}{Automated Scanning is Highly Effective}{54}{}%
+\contentsline {subsubsection}{Network Security Remains Critical}{54}{}%
+\contentsline {subsubsection}{Encryption Gaps are Common}{54}{}%
+\contentsline {subsubsection}{IAM Complexity Leads to Overpermissioning}{54}{}%
+\contentsline {subsection}{\numberline {5.10.2}Comparison with Literature}{55}{}%
+\contentsline {subsection}{\numberline {5.10.3}Practical Implications}{55}{}%
+\contentsline {subsubsection}{For Development Teams}{55}{}%
+\contentsline {subsubsection}{For Security Teams}{55}{}%
+\contentsline {subsubsection}{For Organizations}{56}{}%
+\contentsline {subsection}{\numberline {5.10.4}Limitations}{56}{}%
+\contentsline {subsubsection}{Static Analysis Limitations}{56}{}%
+\contentsline {subsubsection}{Tool-Specific Limitations}{56}{}%
+\contentsline {subsubsection}{Implementation Limitations}{56}{}%
+\contentsline {subsection}{\numberline {5.10.5}Recommendations}{57}{}%
+\contentsline {subsubsection}{For Production Deployment}{57}{}%
+\contentsline {subsubsection}{For Enhanced Security}{57}{}%
+\contentsline {section}{\numberline {5.11}Summary}{57}{}%
+\contentsline {chapter}{REFERENCES}{60}{}%

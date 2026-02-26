@@ -1,0 +1,5614 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.10)  21 JAN 2026 23:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main-basic.tex
+(./main-basic.tex
+LaTeX2e <2025-06-01>
+L3 programming layer <2025-05-26>
+(c:/texlive/2025/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count284
+)
+No file main-basic.aux.
+\openout1 = `main-basic.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+
+[1
+
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+[2]
+No file main-basic.toc.
+\tf@toc=\write3
+\openout3 = `main-basic.toc'.
+
+
+
+[1
+
+] (./sections/abstract.tex
+
+[2]
+
+[3]) (./sections/introduction.tex
+Chapter 1.
+
+LaTeX Warning: Citation `gartner2024cloud' on page 4 undefined on input line 6.
+
+
+
+LaTeX Warning: Citation `gartner2023security' on page 4 undefined on input line
+ 10.
+
+
+
+[4
+
+]
+
+LaTeX Warning: Citation `cybersecurity2023report' on page 5 undefined on input 
+line 20.
+
+
+Overfull \hbox (8.16673pt too wide) in paragraph at lines 28--29
+\OT1/cmr/m/n/12 Organizations must com-ply with var-i-ous reg-u-la-tory frame-w
+orks such as GDPR,
+ []
+
+
+LaTeX Warning: Citation `ibm2023breach' on page 5 undefined on input line 32.
+
+
+
+[5]
+
+LaTeX Warning: Citation `isc2023workforce' on page 6 undefined on input line 36
+.
+
+
+Overfull \hbox (40.28157pt too wide) in paragraph at lines 40--41
+\OT1/cmr/m/n/12 Modern cloud en-vi-ron-ments face a crit-i-cal se-cu-rity chal-
+lenge: \OT1/cmr/bx/n/12 rapid Infrastructure-
+ []
+
+
+
+[6]
+
+[7]
+Overfull \hbox (3.54185pt too wide) in paragraph at lines 103--104
+[]\OT1/cmr/m/n/12 Deployment of demon-stra-tion in-fras-truc-ture on AWS (10 EC
+2 in-stances) 
+ []
+
+
+
+[8]
+Overfull \hbox (1.32617pt too wide) in paragraph at lines 139--140
+[]\OT1/cmr/bx/n/12 Chapter 6: Con-clu-sion and Fu-ture Work \OT1/cmr/m/n/12 - S
+um-ma-rizes the project
+ []
+
+) (./sections/literature.tex
+
+[9]
+
+[10]
+Chapter 2.
+
+LaTeX Warning: Citation `subramanian2018cloud' on page 11 undefined on input li
+ne 12.
+
+
+LaTeX Warning: Citation `gartner2023predictions' on page 11 undefined on input 
+line 14.
+
+
+LaTeX Warning: Citation `continella2020analysis' on page 11 undefined on input 
+line 18.
+
+
+
+[11
+
+]
+
+LaTeX Warning: Citation `rahman2019security' on page 12 undefined on input line
+ 34.
+
+
+
+[12]
+
+LaTeX Warning: Citation `schwarzkopf2021secure' on page 13 undefined on input l
+ine 50.
+
+
+LaTeX Warning: Citation `myrbakken2017devsecops' on page 13 undefined on input 
+line 65.
+
+
+Overfull \hbox (5.93439pt too wide) in paragraph at lines 68--69
+[]\OT1/cmr/bx/n/12 Early De-tec-tion: \OT1/cmr/m/n/12 Iden-ti-fy-ing se-cu-rity
+ is-sues dur-ing de-vel-op-ment rather
+ []
+
+
+LaTeX Warning: Citation `nist2002economics' on page 13 undefined on input line 
+73.
+
+
+LaTeX Warning: Citation `rajapakse2022security' on page 13 undefined on input l
+ine 77.
+
+
+
+[13]
+Overfull \hbox (16.93874pt too wide) in paragraph at lines 82--83
+[]\OT1/cmr/bx/n/12 Performance Im-pact: \OT1/cmr/m/n/12 Se-cu-rity scans slow-i
+ng down de-ploy-ment pipelines 
+ []
+
+
+LaTeX Warning: Citation `bridgecrew2023checkov' on page 14 undefined on input l
+ine 96.
+
+
+LaTeX Warning: Citation `sharma2023comparison' on page 14 undefined on input li
+ne 106.
+
+
+LaTeX Warning: Citation `hashicorp2023sentinel' on page 14 undefined on input l
+ine 110.
+
+
+
+[14]
+
+LaTeX Warning: Citation `tflint2023' on page 15 undefined on input line 114.
+
+
+LaTeX Warning: Citation `paloalto2023prisma' on page 15 undefined on input line
+ 122.
+
+
+LaTeX Warning: Citation `aws2023securityhub' on page 15 undefined on input line
+ 126.
+
+
+
+[15]
+
+LaTeX Warning: Citation `forsgren2021devops' on page 16 undefined on input line
+ 144.
+
+
+LaTeX Warning: Citation `wickett2016rugged' on page 16 undefined on input line 
+155.
+
+
+LaTeX Warning: Citation `cis2023benchmarks' on page 16 undefined on input line 
+172.
+
+
+Overfull \hbox (1.52242pt too wide) in paragraph at lines 172--173
+\OT1/cmr/m/n/12 The Cen-ter for In-ter-net Se-cu-rity (CIS) pub-lishes se-cu-ri
+ty con-fig-u-ra-tion bench-
+ []
+
+
+
+[16]
+
+LaTeX Warning: Citation `nist2018framework' on page 17 undefined on input line 
+183.
+
+
+LaTeX Warning: Citation `sox2002' on page 17 undefined on input line 187.
+
+
+LaTeX Warning: Citation `hipaa1996' on page 17 undefined on input line 187.
+
+
+LaTeX Warning: Citation `gdpr2016' on page 17 undefined on input line 187.
+
+
+Overfull \hbox (0.21136pt too wide) in paragraph at lines 187--188
+\OT1/cmr/m/n/12 Sarbanes-Oxley (SOX), HIPAA, and GDPR all re-quire or-ga-ni-za-
+tions to main-
+ []
+
+
+
+[17]) (./sections/system-design.tex
+Overfull \hbox (36.84279pt too wide) in paragraph at lines 212--2
+\OT1/cmr/m/n/12 This lit-er-a-ture re-view ex-am-ined re-search on cloud se-cu-
+rity chal-lenges, Infrastructure-
+ []
+
+
+
+[18]
+Chapter 3.
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \begin{figure}[H]
+                      
+Option `H' ignored and `p' used.
+
+
+
+[19
+
+]
+
+[20]
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 \begin{lstlisting}
+                       [language=yaml, caption=Security Scan Job Configuration]
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.98     scan_
+              status: ${{ steps.scan.outputs.status }}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 98.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 98.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 98.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.99     violations_
+                    found: ${{ steps.scan.outputs.violations }}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.112         output_
+                     format: cli,json
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.114 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (88.44238pt too wide) in paragraph at lines 92--115
+\OT1/cmr/m/n/12 out-puts: scan$[]\OML/cmm/m/it/12 tatus \OT1/cmr/m/n/12 :$ step
+s.scan.outputs.status  violations$[]\OML/cmm/m/it/12 ound \OT1/cmr/m/n/12 :$ st
+eps.scan.outputs.violations
+ []
+
+
+
+[21]
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 \begin{lstlisting}
+                        [language=bash, caption=Security Gate Logic]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.137     #
+            In production: exit 1 (block deployment)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.138     #
+            In demo: warning only
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (27.44394pt too wide) in paragraph at lines 133--141
+[]\OT1/cmr/bx/n/12 Logic: \OT1/cmr/m/n/12 [lan-guage=bash, cap-tion=Security Ga
+te Logic] if [ "$\OML/cmm/m/it/12 VIOLATIONS\OT1/cmr/m/n/12 " \OMS/cmsy/m/n/12 
+^^@
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 \begin{lstlisting}
+                        [language=yaml, caption=Checkov Configuration]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (1.59732pt too wide) in paragraph at lines 146--149
+[]\OT1/cmr/m/n/12 [language=yaml, cap-tion=Checkov Con-fig-u-ra-tion] frame-wor
+k: - ter-raform 
+ []
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.159 skip-check: []  #
+                        No checks skipped
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.161 soft-fail: true  #
+                         For demo purposes
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 \begin{lstlisting}
+                        [language=SQL, caption=Scans Table Schema]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.177     scan_
+               id INTEGER PRIMARY KEY AUTOINCREMENT,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.188 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (1402.5184pt too wide) in paragraph at lines 175--189
+\OT1/cmr/m/n/12 scan$[]\OML/cmm/m/it/12 dINTEGERPRIMARYKEYAUTOINCREMENT; timest
+ampDATETIMEDEFAULTCURRENT[]IMESTAMP; commit[]haVARCHAR\OT1/cmr/m/n/12 (40)\OML/
+cmm/m/it/12 ; branchVARCHAR\OT1/cmr/m/n/12 (100)\OML/cmm/m/it/12 ; total[]hecks
+INTEGER; passed[]hecksINTEGER; failed[]hecksINTEGER; skipped[]hecksINTEGER; sca
+n[]uration[]econdsREAL; checkov[]ersionVARCHAR\OT1/cmr/m/n/12 (20));$ 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 \begin{lstlisting}
+                        [language=SQL, caption=Violations Table Schema]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.193     violation_
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.208 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (1752.19357pt too wide) in paragraph at lines 191--209
+\OT1/cmr/m/n/12 tions ( violation$[]\OML/cmm/m/it/12 dINTEGERPRIMARYKEYAUTOINCR
+EMENT; scan[]dINTEGER; check[]dVARCHAR\OT1/cmr/m/n/12 (50)\OML/cmm/m/it/12 ; ch
+eck[]ameTEXT; severityVARCHAR\OT1/cmr/m/n/12 (20)\OML/cmm/m/it/12 ; resource[]y
+peVARCHAR\OT1/cmr/m/n/12 (100)\OML/cmm/m/it/12 ; resource[]ameVARCHAR\OT1/cmr/m
+/n/12 (200)\OML/cmm/m/it/12 ; file[]athVARCHAR\OT1/cmr/m/n/12 (500)\OML/cmm/m/i
+t/12 ; line[]tartINTEGER; line[]ndINTEGER; descriptionTEXT; remediationTEXT; gu
+ideline[]rlTEXT; FOREIGNKEY\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 scan[]d\OT1/cmr/m/
+n/12 )\OML/cmm/m/it/12 REFERENCESscans\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 scan[]d
+\OT1/cmr/m/n/12 ));$ 
+ []
+
+
+
+[22]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+
+Overfull \hbox (15.16212pt too wide) in paragraph at lines 248--249
+[]\OT1/cmr/bx/n/12 db-insecure-sg: \OT1/cmr/m/n/12 Database ports (MySQL, Post-
+greSQL) open to 0.0.0.0/0 
+ []
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 \begin{table}[H]
+                      
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.261 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.262 ...curity} & \textbf{Encryption} \\ \midrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.272 ...o & Private & Secure & Yes \\ \bottomrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[23]
+
+[24]
+
+[25]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.372 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+
+
+[26]
+
+[27]
+
+[28]
+
+[29]) (./sections/implementation.tex
+Overfull \hbox (3.68619pt too wide) in paragraph at lines 530--2
+\OT1/cmr/m/n/12 in-clud-ing the high-level ar-chi-tec-ture, de-tailed com-po-ne
+nt de-sign, sys-tem work-
+ []
+
+
+
+[30]
+
+[31]
+Chapter 4.
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \begin{lstlisting}
+                       [language=bash, caption=AWS Configuration]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.28 #
+       AWS Access Key ID: [REDACTED]
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.29 #
+       AWS Secret Access Key: [REDACTED]
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.30 #
+       Default region: ap-south-1
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.31 #
+       Default output format: json
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.33 #
+       Verify configuration
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \end{lstlisting}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[32
+
+]
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \begin{lstlisting}
+                       [language=bash, caption=Repository Initialization]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \end{lstlisting}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (28.71371pt too wide) in paragraph at lines 48--54
+[]\OT1/cmr/m/n/12 [language=bash, cap-tion=Repository Ini-tial-iza-tion] git in
+it git con-fig user.name
+ []
+
+
+Overfull \hbox (2.29778pt too wide) in paragraph at lines 55--55
+[]\OT1/cmr/bx/n/17.28 Terraform In-fras-truc-ture Im-ple-men-ta-tion 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \begin{lstlisting}
+                       [caption=Terraform Directory Structure]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.63 |-- main.tf              #
+                                Main configuration
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.64 |-- providers.tf         #
+                                Provider configuration
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.65 |-- variables.tf         #
+                                Input variables
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.66 |-- outputs.tf           #
+                                Output values
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.67 |-- vpc.tf              #
+                               VPC and networking
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.68 |-- security_
+                  groups.tf  # Security group rules
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.68 |-- security_groups.tf  #
+                               Security group rules
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.69 |-- ec2_instances.tf    #
+                               EC2 instance definitions
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.70 |-- s3.tf               #
+                               S3 bucket configurations
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.71 |-- iam.tf              #
+                               IAM roles and policies
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.72 |-- terraform.tfvars.example  #
+                                     Example variables
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \end{lstlisting}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.73 \end{lstlisting}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (44.95831pt too wide) in paragraph at lines 61--74
+\OT1/cmr/m/n/12 security$[]\OML/cmm/m/it/12 roups:tfSecuritygrouprules\OMS/cmsy
+/m/n/12 j ^^@ ^^@\OML/cmm/m/it/12 ec\OT1/cmr/m/n/12 2[]\OML/cmm/m/it/12 nstance
+s:tfEC\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 instancedefinitions\OMS/cmsy/m/n/12 j ^
+^@
+ []
+
+
+Overfull \hbox (199.22398pt too wide) in paragraph at lines 61--74
+\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 3\OML/cmm/m/it/12 :tfS\OT
+1/cmr/m/n/12 3\OML/cmm/m/it/12 bucketconfigurations\OMS/cmsy/m/n/12 j ^^@ ^^@\O
+ML/cmm/m/it/12 iam:tfIAMrolesandpolicies\OMS/cmsy/m/n/12 j ^^@ ^^@\OML/cmm/m/it
+/12 terraform:tfvars:exampleExamplevariables$ 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \begin{lstlisting}
+                       [language=terraform, caption=Provider Configuration (...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.79   required_
+                version = ">= 1.6.0"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.80 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (11.7993pt too wide) in paragraph at lines 77--80
+\OT1/cmr/m/n/12 [language=terraform, cap-tion=Provider Con-fig-u-ra-tion (provi
+ders.tf)] ter-raform
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.81   required_
+                providers {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.91 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.92 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (313.8592pt too wide) in paragraph at lines 81--92
+[]\OT1/cmr/m/n/12 required$[]\OML/cmm/m/it/12 roviders[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.94   region = var.aws_
+                        region
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.95 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.96   default_
+               tags {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.103 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.104 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.104 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.104 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (165.27931pt too wide) in paragraph at lines 96--105
+[]\OT1/cmr/m/n/12 default$[]\OML/cmm/m/it/12 ags[]$ 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \begin{lstlisting}
+                        [language=terraform, caption=VPC Configuration (vpc....
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.112 resource "aws_
+                    vpc" "main" {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.116 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.116 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (452.05685pt too wide) in paragraph at lines 111--116
+[]\OT1/cmr/m/n/12 [language=terraform, cap-tion=VPC Con-fig-u-ra-tion (vpc.tf)]
+ re-source "aws$[]\OML/cmm/m/it/12 pc\OT1/cmr/m/n/12 ""\OML/cmm/m/it/12 main\OT
+1/cmr/m/n/12 "[]$ 
+ []
+
+! Extra }, or forgotten $.
+l.119   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.120 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.121 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.122 resource "aws_
+                    subnet" "public" {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.128 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.128 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (741.29259pt too wide) in paragraph at lines 122--128
+[]\OT1/cmr/m/n/12 resource "aws$[]\OML/cmm/m/it/12 ubnet\OT1/cmr/m/n/12 ""\OML/
+cmm/m/it/12 public\OT1/cmr/m/n/12 "[]$ 
+ []
+
+
+
+[33]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.135 resource "aws_
+                    subnet" "private" {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.140 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.140 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (629.42772pt too wide) in paragraph at lines 135--140
+[]\OT1/cmr/m/n/12 resource "aws$[]\OML/cmm/m/it/12 ubnet\OT1/cmr/m/n/12 ""\OML/
+cmm/m/it/12 private\OT1/cmr/m/n/12 "[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+l.145 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152 \begin{lstlisting}
+                        [language=terraform, caption=Insecure Security Group...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.153 resource "aws_
+                    security_group" "web_insecure" {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.154   name        = "$
+                        {var.project_name}-web-insecure-sg"
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.154   name        = "${var.project_
+                                     name}-web-insecure-sg"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.154   name        = "${var.project_name}
+                                          -web-insecure-sg"
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.157 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (3.9237pt too wide) in paragraph at lines 152--157
+[]\OT1/cmr/m/n/12 [language=terraform, cap-tion=Insecure Se-cu-rity Group Ex-am
+-ple] re-source
+ []
+
+
+Overfull \hbox (11.03969pt too wide) in paragraph at lines 152--157
+\OT1/cmr/m/n/12 "aws$[]\OML/cmm/m/it/12 ecurity[]roup\OT1/cmr/m/n/12 ""\OML/cmm
+/m/it/12 web[]nsecure\OT1/cmr/m/n/12 "[]$var.project$[]\OML/cmm/m/it/12 ame \OM
+S/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 web \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 in
+secure \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (25.93842pt too wide) in paragraph at lines 152--157
+\OML/cmm/m/it/12 sg\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 description \OT1/cmr/m/n/1
+2 = "\OML/cmm/m/it/12 INSECUREsecuritygroupfordemo\OT1/cmr/m/n/12 "\OML/cmm/m/i
+t/12 vpc[]d \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 aws[]pc:main:id$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.158   #
+          VULNERABILITY: SSH open to entire internet
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.161     from_
+               port   = 22
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.165   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.166 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.167   #
+          VULNERABILITY: All ports open
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.170     from_
+               port   = 0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.174   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.175 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.177     from_
+               port   = 0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.181   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.182 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.187   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.188 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.189 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.189 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.189 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.189 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.189 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.189 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.195 \begin{lstlisting}
+                        [language=terraform, caption=Secure EC2 Instance Exa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.196 resource "aws_
+                    instance" "control" {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.202 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.202 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (637.87701pt too wide) in paragraph at lines 195--202
+\OT1/cmr/m/n/12 "aws$[]\OML/cmm/m/it/12 nstance\OT1/cmr/m/n/12 ""\OML/cmm/m/it/
+12 control\OT1/cmr/m/n/12 "[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.203   root_
+             block_device {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.206     encrypted   = true  #
+                                Secure: Encryption enabled
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.208 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (128.16322pt too wide) in paragraph at lines 203--208
+[]\OT1/cmr/m/n/12 root$[]\OML/cmm/m/it/12 lock[]evice[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+l.214 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 \begin{lstlisting}
+                        [language=terraform, caption=Insecure EC2 Instance E...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.218 resource "aws_
+                    instance" "web_02" {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.224 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.224 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (624.6129pt too wide) in paragraph at lines 217--224
+\OT1/cmr/m/n/12 "aws$[]\OML/cmm/m/it/12 nstance\OT1/cmr/m/n/12 ""\OML/cmm/m/it/
+12 web[]\OT1/cmr/m/n/12 2"[]$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.225   #
+          VULNERABILITY: EBS not encrypted
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.226   root_
+             block_device {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.229     encrypted   = false  #
+                                 INSECURE!
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.231 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (268.12097pt too wide) in paragraph at lines 225--231
+[]\OT1/cmr/m/n/12 VULNERABILITY: EBS not en-crypted root$[]\OML/cmm/m/it/12 loc
+k[]evice[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.236     Warning      = "INTENTIONALLY_
+                                        INSECURE_FOR_DEMO"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.237   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.238 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.239 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.239 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.245 \begin{lstlisting}
+                        [language=terraform, caption=Secure S3 Bucket]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.246 resource "aws_
+                    s3_bucket" "terraform_state" {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.247   bucket = "$
+                   {var.project_name}-tfstate-${random_id.bucket_suffix.hex}"
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.247   bucket = "${var.project_
+                                name}-tfstate-${random_id.bucket_suffix.hex}"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.247   bucket = "${var.project_name}
+                                     -tfstate-${random_id.bucket_suffix.hex}"
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.247 ... = "${var.project_name}-tfstate-${random_
+                                                  id.bucket_suffix.hex}"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.247 ...e}-tfstate-${random_id.bucket_suffix.hex}
+                                                  "
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.248 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (235.29028pt too wide) in paragraph at lines 245--248
+[]\OT1/cmr/m/n/12 [language=terraform, cap-tion=Secure S3 Bucket] re-source "aw
+s$[]3[]\OML/cmm/m/it/12 ucket\OT1/cmr/m/n/12 ""\OML/cmm/m/it/12 terraform[]tate
+\OT1/cmr/m/n/12 "[]$var.project$[]\OML/cmm/m/it/12 ame \OMS/cmsy/m/n/12 ^^@
+ []
+
+! Extra }, or forgotten $.
+l.253   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.254 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.255 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (96.4091pt too wide) in paragraph at lines 249--255
+[]\OT1/cmr/m/n/12 tags =  Name = "$[] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 tfs
+tate\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 Purpose \OT1/cmr/m/n/12 = "\OML/cmm/m/it/
+12 TerraformState\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 SecurityType \OT1/cmr/m/n/12
+ =
+ []
+
+
+
+[34]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.256 resource "aws_
+                    s3_bucket_versioning" "terraform_state" {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.262 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (332.88333pt too wide) in paragraph at lines 256--262
+[]\OT1/cmr/m/n/12 resource "aws$[]3[]\OML/cmm/m/it/12 ucket[]ersioning\OT1/cmr/
+m/n/12 ""\OML/cmm/m/it/12 terraform[]tate\OT1/cmr/m/n/12 "[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.263 resource "aws_
+                    s3_bucket_server_side_encryption_configuration" "terrafo...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.265 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (226.15916pt too wide) in paragraph at lines 263--265
+[]\OT1/cmr/m/n/12 resource "aws$[]3[]\OML/cmm/m/it/12 ucket[]erver[]ide[]ncrypt
+ion[]onfiguration\OT1/cmr/m/n/12 ""\OML/cmm/m/it/12 terraform[]tate\OT1/cmr/m/n
+/12 "[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.267     apply_
+                server_side_encryption_by_default {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.271   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.272 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.273 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (84.20618pt too wide) in paragraph at lines 266--273
+[]\OT1/cmr/m/n/12 rule  apply$[]\OML/cmm/m/it/12 erver[]ide[]ncryption[]y[]efau
+lt[]bucket[]ey[]nabled \OT1/cmr/m/n/12 =
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.274 resource "aws_
+                    s3_bucket_public_access_block" "terraform_state" {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.276 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.276 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (131.39471pt too wide) in paragraph at lines 274--276
+[]\OT1/cmr/m/n/12 resource "aws$[]3[]\OML/cmm/m/it/12 ucket[]ublic[]ccess[]lock
+\OT1/cmr/m/n/12 ""\OML/cmm/m/it/12 terraform[]tate\OT1/cmr/m/n/12 "[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.277   block_
+              public_acls       = true
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.281 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.282 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.282 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.282 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.282 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.282 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.282 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (102.68059pt too wide) in paragraph at lines 277--283
+[]\OT1/cmr/m/n/12 block$[]\OML/cmm/m/it/12 ublic[]cls \OT1/cmr/m/n/12 = \OML/cm
+m/m/it/12 trueblock[]ublic[]olicy \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 trueignore
+[]ublic[]cls \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 truerestrict[]ublic[]uckets \OT
+1/cmr/m/n/12 =
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.288 \begin{lstlisting}
+                        [language=terraform, caption=Insecure IAM Policy]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.289 resource "aws_
+                    iam_role_policy" "ec2_insecure_policy" {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.290   name = "$
+                 {var.project_name}-ec2-insecure-policy"
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.290   name = "${var.project_
+                              name}-ec2-insecure-policy"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.290   name = "${var.project_name}
+                                   -ec2-insecure-policy"
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.292 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (283.65929pt too wide) in paragraph at lines 288--292
+[]\OT1/cmr/m/n/12 [language=terraform, cap-tion=Insecure IAM Pol-icy] re-source
+ "aws$[]\OML/cmm/m/it/12 am[]ole[]olicy\OT1/cmr/m/n/12 ""\OML/cmm/m/it/12 ec\OT
+1/cmr/m/n/12 2[]\OML/cmm/m/it/12 nsecure[]olicy\OT1/cmr/m/n/12 "[]$var.project$
+[]\OML/cmm/m/it/12 ame \OMS/cmsy/m/n/12 ^^@
+ []
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.299         Action   = "s3:*"      #
+                                       INSECURE: Wildcard
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.300         Resource = "*"         #
+                                       INSECURE: All resources
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.305         Action   = "ec2:*"     #
+                                       INSECURE: Wildcard
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.306         Resource = "*"         #
+                                       INSECURE: All resources
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.311         Action   = "iam:*"     #
+                                       INSECURE: Wildcard
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.312         Resource = "*"         #
+                                       INSECURE: All resources
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.317 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 \begin{lstlisting}
+                        [language=bash, caption=Terraform Deployment Commands]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.324 #
+        Initialize Terraform
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.327 #
+        Validate configuration
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.330 #
+        Plan deployment
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.333 #
+        Apply configuration
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.336 #
+        Verify deployment
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.354 \begin{lstlisting}
+                        [language=bash, caption=Checkov Installation]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[35]
+! You can't use `macro parameter character #' in vertical mode.
+l.357 #
+        Verify installation
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.359 #
+        Output: 3.2.497
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.360 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.366 \begin{lstlisting}
+                        [language=yaml, caption=Checkov Configuration (.chec...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.379 skip-check: []  #
+                        No checks skipped for demo
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.381 soft-fail: true  #
+                         Allow demo to continue
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.388 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.394 \begin{lstlisting}
+                        [language=bash, caption=Manual Checkov Scan]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.395 #
+        Basic scan
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.398 #
+        Compact output
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.401 #
+        JSON output
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.402 checkov -d terraform/ -o json > scan_
+                                           results.json
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.403 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.404 #
+        Specific framework
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.407 #
+        With custom config
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.409 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.418 \begin{lstlisting}
+                        [language=yaml, caption=GitHub Actions Workflow]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (4.01537pt too wide) in paragraph at lines 418--420
+[]\OT1/cmr/m/n/12 [language=yaml, cap-tion=GitHub Ac-tions Work-flow] name: Se-
+cu-rity Scan 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.427   pull_
+             request:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.432 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (46.28961pt too wide) in paragraph at lines 421--432
+\OT1/cmr/m/n/12 ".github/workflows/security-scan.yml" pull$[]\OML/cmm/m/it/12 e
+quest \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 branches \OT1/cmr/m/n/12 : [\OML/cmm/m
+/it/12 main; master\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 paths \OT1/cmr/m/n/12 :
+ []
+
+
+
+[36]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.434   TERRAFORM_
+                  VERSION: "1.6.0"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.436 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.443       scan_
+                 status: ${{ steps.scan.outputs.status }}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.444       violations_
+                       found: ${{ steps.scan.outputs.violations }}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (106.0672pt too wide) in paragraph at lines 442--445
+[]\OT1/cmr/m/n/12 outputs: scan$[]\OML/cmm/m/it/12 tatus \OT1/cmr/m/n/12 :$ ste
+ps.scan.outputs.status  violations$[]\OML/cmm/m/it/12 ound \OT1/cmr/m/n/12 :$ s
+teps.scan.outputs.violations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--445
+
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.455 \begin{lstlisting}
+                        [language=yaml, caption=GitHub Actions Workflow Stru...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.464   pull_
+             request:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.469 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (46.28961pt too wide) in paragraph at lines 458--469
+\OT1/cmr/m/n/12 ".github/workflows/security-scan.yml" pull$[]\OML/cmm/m/it/12 e
+quest \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 branches \OT1/cmr/m/n/12 : [\OML/cmm/m
+/it/12 main; master\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 paths \OT1/cmr/m/n/12 :
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.471   TERRAFORM_
+                  VERSION: "1.6.0"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.473 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.476     #
+            Job implementation
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.478     #
+            Job implementation
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.480     #
+            Job implementation
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.481 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.485 \begin{lstlisting}
+                        [language=yaml, caption=Security Scan Job]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.490     scan_
+               status: ${{ steps.scan.outputs.status }}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.491     violations_
+                     found: ${{ steps.scan.outputs.violations }}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (36.62898pt too wide) in paragraph at lines 485--492
+\OT1/cmr/m/n/12 Se-cu-rity Scan runs-on: ubuntu-latest out-puts: scan$[]\OML/cm
+m/m/it/12 tatus \OT1/cmr/m/n/12 :$ steps.scan.outputs.status
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.501 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.513         output_
+                     format: cli,json
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.518 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (4.23276pt too wide) in paragraph at lines 507--518
+\OT1/cmr/m/n/12 action@v12 with: di-rec-tory: ter-raform/ frame-work: ter-rafor
+m output$[]\OML/cmm/m/it/12 ormat \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (96.0429pt too wide) in paragraph at lines 507--518
+\OML/cmm/m/it/12 cli; jsonoutput[]ile[]ath \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 c
+onsole; checkov[]esults:jsonsoft[]ail \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 truedo
+wnload[]xternal[]odules \OT1/cmr/m/n/12 :
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.522         if [ -f "checkov_
+                               results.json" ]; then
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.525         with open('checkov_
+                                 results.json', 'r') as f:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.540             echo "status=passed" >> $GITHUB_
+                                                  OUTPUT
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.543 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (141.29605pt too wide) in paragraph at lines 519--543
+[]\OT1/cmr/m/n/12 - name: Pro-cess Scan Re-sults id: scan run: | if [ -f "check
+ov$[]\OML/cmm/m/it/12 esults:json\OT1/cmr/m/n/12 "]; \OML/cmm/m/it/12 thenFAILE
+D \OT1/cmr/m/n/12 =$(python3
+ []
+
+
+Overfull \hbox (95.5236pt too wide) in paragraph at lines 519--543
+\OT1/cmr/m/n/12 -c " im-port json, sys with open('checkov$[]\OML/cmm/m/it/12 es
+ults:json[];[] r[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 asf \OT1/cmr/m/n/12 : \OML/
+cmm/m/it/12 data \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 json:load\OT1/cmr/m/n/12 (\
+OML/cmm/m/it/12 f\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 total[]ailed \OT1/cmr/m/n/12
+ =
+ []
+
+
+Overfull \hbox (6.32706pt too wide) in paragraph at lines 519--543
+\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ifisinstance\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
+ data; list\OT1/cmr/m/n/12 ) : \OML/cmm/m/it/12 foritemindata \OT1/cmr/m/n/12 :
+ \OML/cmm/m/it/12 if[]results[]initem \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 total[
+]ailed\OT1/cmr/m/n/12 + =
+ []
+
+
+Overfull \hbox (52.77124pt too wide) in paragraph at lines 519--543
+\OML/cmm/m/it/12 len\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 item\OT1/cmr/m/n/12 [[]\O
+ML/cmm/m/it/12 results[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 :get\OT1/cmr/m/n/12 (
+[]\OML/cmm/m/it/12 failed[]hecks[]; \OT1/cmr/m/n/12 []))\OML/cmm/m/it/12 elifis
+instance\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 data; dict\OT1/cmr/m/n/12 )\OML/cmm/m
+/it/12 and[]results[]indata \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (133.32378pt too wide) in paragraph at lines 519--543
+\OML/cmm/m/it/12 total[]ailed \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 len\OT1/cmr/m/
+n/12 (\OML/cmm/m/it/12 data\OT1/cmr/m/n/12 [[]\OML/cmm/m/it/12 results[]\OT1/cm
+r/m/n/12 ]\OML/cmm/m/it/12 :get\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 failed[]heck
+s[]; \OT1/cmr/m/n/12 []))\OML/cmm/m/it/12 print\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
+2 total[]ailed\OT1/cmr/m/n/12 )")\OML/cmm/m/it/12 echo\OT1/cmr/m/n/12 "\OML/cmm
+/m/it/12 violations \OT1/cmr/m/n/12 =$FAILED"
+ []
+
+
+
+[37]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.549         path: checkov_
+                            results.json
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.551 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.551 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.555 \begin{lstlisting}
+                        [language=yaml, caption=Terraform Validation Job]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (10.56668pt too wide) in paragraph at lines 555--560
+\OT1/cmr/m/n/12 [language=yaml, cap-tion=Terraform Val-i-da-tion Job] terraform
+-validate: name:
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.568         terraform_
+                        version: ${{ env.TERRAFORM_VERSION }}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.568 ...    terraform_version: ${{ env.TERRAFORM_
+                                                  VERSION }}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.568 ...form_version: ${{ env.TERRAFORM_VERSION }
+                                                  }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.568 ...orm_version: ${{ env.TERRAFORM_VERSION }}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.569 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (67.2818pt too wide) in paragraph at lines 565--569
+[]\OT1/cmr/m/n/12 - name: Setup Ter-raform uses: hashicorp/setup-terraform@v3 w
+ith: terraform$[]\OML/cmm/m/it/12 ersion \OT1/cmr/m/n/12 :$
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.582 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.582 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.582 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.586 \begin{lstlisting}
+                        [language=yaml, caption=Security Gate Job]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.597 ...US="${{ needs.security-scan.outputs.scan_
+                                                  status }}"
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.597 ...needs.security-scan.outputs.scan_status }
+                                                  }"
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.597 ...eeds.security-scan.outputs.scan_status }}
+                                                  "
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.598 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (249.86292pt too wide) in paragraph at lines 593--598
+[]\OT1/cmr/m/n/12 steps: - name: Check Se-cu-rity Gate run: | VIOLATIONS="$[]"\
+OML/cmm/m/it/12 STATUS \OT1/cmr/m/n/12 =
+ []
+
+! Misplaced alignment tab character &.
+l.599         if [ "$STATUS" == "failed" ] &
+                                            & [ "$VIOLATIONS" -gt "0" ]; then
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.599         if [ "$STATUS" == "failed" ] &&
+                                              [ "$VIOLATIONS" -gt "0" ]; then
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! You can't use `macro parameter character #' in math mode.
+l.601           #
+                  In production: exit 1 (block deployment)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.602           #
+                  In demo: warning only
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.604 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.604 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (111.46236pt too wide) in paragraph at lines 599--605
+\OT1/cmr/m/n/12 cu-rity gate trig-gered - $\OML/cmm/m/it/12 VIOLATIONSviolation
+s\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 Inproduction \OT1/cmr/m/n/12 : \OML/cmm/m/it
+/12 exit\OT1/cmr/m/n/12 1(\OML/cmm/m/it/12 blockdeployment\OT1/cmr/m/n/12 )\OML
+/cmm/m/it/12 Indemo \OT1/cmr/m/n/12 :
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.612 \begin{lstlisting}
+                        [language=SQL, caption=Database Schema Implementation]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.615     scan_
+               id INTEGER PRIMARY KEY AUTOINCREMENT,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.627 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1796.23076pt too wide) in paragraph at lines 612--627
+\OT1/cmr/m/n/12 ble CRE-ATE TA-BLE IF NOT EX-ISTS scans ( scan$[]\OML/cmm/m/it/
+12 dINTEGERPRIMARYKEYAUTOINCREMENT; timestampDATETIMEDEFAULTCURRENT[]IMESTAMP; 
+commit[]haVARCHAR\OT1/cmr/m/n/12 (40)\OML/cmm/m/it/12 ; branchVARCHAR\OT1/cmr/m
+/n/12 (100)\OML/cmm/m/it/12 ; total[]hecksINTEGER; passed[]hecksINTEGER; failed
+[]hecksINTEGER; skipped[]hecksINTEGER; scan[]uration[]econdsREAL; checkov[]ersi
+onVARCHAR\OT1/cmr/m/n/12 (20)\OML/cmm/m/it/12 ; triggered[]yVARCHAR\OT1/cmr/m/n
+/12 (100));$ 
+ []
+
+
+
+[38]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.630     violation_
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.645 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (2068.80054pt too wide) in paragraph at lines 628--645
+[]\OT1/cmr/m/n/12 -- Vi-o-la-tions ta-ble CRE-ATE TA-BLE IF NOT EX-ISTS vi-o-la
+-tions ( violation$[]\OML/cmm/m/it/12 dINTEGERPRIMARYKEYAUTOINCREMENT; scan[]dI
+NTEGER; check[]dVARCHAR\OT1/cmr/m/n/12 (50)\OML/cmm/m/it/12 ; check[]ameTEXT; s
+everityVARCHAR\OT1/cmr/m/n/12 (20)\OML/cmm/m/it/12 ; resource[]ypeVARCHAR\OT1/c
+mr/m/n/12 (100)\OML/cmm/m/it/12 ; resource[]ameVARCHAR\OT1/cmr/m/n/12 (200)\OML
+/cmm/m/it/12 ; file[]athVARCHAR\OT1/cmr/m/n/12 (500)\OML/cmm/m/it/12 ; line[]ta
+rtINTEGER; line[]ndINTEGER; descriptionTEXT; remediationTEXT; guideline[]rlTEXT
+; FOREIGNKEY\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 scan[]d\OT1/cmr/m/n/12 )\OML/cmm/
+m/it/12 REFERENCESscans\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 scan[]d\OT1/cmr/m/n/12
+ ));$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.647 CREATE INDEX idx_
+                       scans_timestamp ON scans(timestamp);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.651 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.651 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (1062.255pt too wide) in paragraph at lines 646--652
+[]\OT1/cmr/m/n/12 -- In-dexes for per-for-mance CRE-ATE IN-DEX idx$[]\OML/cmm/m
+/it/12 cans[]imestampONscans\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 timestamp\OT1/cmr
+/m/n/12 ); \OML/cmm/m/it/12 CREATEINDEXidx[]iolations[]can[]dONviolations\OT1/c
+mr/m/n/12 (\OML/cmm/m/it/12 scan[]d\OT1/cmr/m/n/12 ); \OML/cmm/m/it/12 CREATEIN
+DEXidx[]iolations[]everityONviolations\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 severit
+y\OT1/cmr/m/n/12 ); \OML/cmm/m/it/12 CREATEINDEXidx[]iolations[]heck[]dONviolat
+ions\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 check[]d\OT1/cmr/m/n/12 );$ 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657 \begin{lstlisting}
+                        [language=Python, caption=Scanner Implementation (sc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.658 #
+       !/usr/bin/env python3
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (26.03735pt too wide) in paragraph at lines 657--665
+[]\OT1/cmr/m/n/12 [language=Python, cap-tion=Scanner Im-ple-men-ta-tion (scan.p
+y)] !/usr/bin/env
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.667     def _
+               _init__(self, db_path="data/scan_results.db"):
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.667     def __
+                init__(self, db_path="data/scan_results.db"):
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.667     def __init__
+                      (self, db_path="data/scan_results.db"):
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.670 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.670 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.670 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (65.32082pt too wide) in paragraph at lines 666--670
+[]\OT1/cmr/m/n/12 class Cloud-Sen-tinelScan-ner: def $[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.671     def init_
+                   database(self):
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.676 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (77.2801pt too wide) in paragraph at lines 671--676
+[]\OT1/cmr/m/n/12 def init$[]\OML/cmm/m/it/12 atabase\OT1/cmr/m/n/12 (\OML/cmm/
+m/it/12 self\OT1/cmr/m/n/12 ) : """\OML/cmm/m/it/12 InitializeSQLitedatabase\OT
+1/cmr/m/n/12 """\OML/cmm/m/it/12 Path\OT1/cmr/m/n/12 ("\OML/cmm/m/it/12 data\OT
+1/cmr/m/n/12 ")\OML/cmm/m/it/12 :mkdir\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 exist[]
+k \OT1/cmr/m/n/12 =
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.677         #
+                Create tables (schema from above)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.684     def run_
+                  scan(self, directory="terraform"):
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.692 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (23.04051pt too wide) in paragraph at lines 684--692
+[]\OT1/cmr/m/n/12 def run$[]\OML/cmm/m/it/12 can\OT1/cmr/m/n/12 (\OML/cmm/m/it/
+12 self; directory \OT1/cmr/m/n/12 = "\OML/cmm/m/it/12 terraform\OT1/cmr/m/n/12
+ ") : """\OML/cmm/m/it/12 RunCheckovscan\OT1/cmr/m/n/12 """\OML/cmm/m/it/12 cmd
+ \OT1/cmr/m/n/12 =
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.693         start_
+                    time = datetime.now()
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.696 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (11.55031pt too wide) in paragraph at lines 693--696
+[]\OT1/cmr/m/n/12 start$[]\OML/cmm/m/it/12 ime \OT1/cmr/m/n/12 = \OML/cmm/m/it/
+12 datetime:now\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 result \OT1/cmr/m/n/12 = \OML
+/cmm/m/it/12 subprocess:run\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 cmd; capture[]utpu
+t \OT1/cmr/m/n/12 =
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.698             scan_
+                       data = json.loads(result.stdout)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.702 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (245.87909pt too wide) in paragraph at lines 697--702
+[]\OT1/cmr/m/n/12 if re-sult.stdout: scan$[]\OML/cmm/m/it/12 ata \OT1/cmr/m/n/1
+2 = \OML/cmm/m/it/12 json:loads\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 result:stdout\
+OT1/cmr/m/n/12 )\OML/cmm/m/it/12 self:log[]can[]esults\OT1/cmr/m/n/12 (\OML/cmm
+/m/it/12 scan[]ata; duration\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 returnscan[]atare
+turnNone$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.703     def log_
+                  scan_results(self, scan_data, duration):
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.707 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (68.00272pt too wide) in paragraph at lines 703--707
+[]\OT1/cmr/m/n/12 def log$[]\OML/cmm/m/it/12 can[]esults\OT1/cmr/m/n/12 (\OML/c
+mm/m/it/12 self; scan[]ata; duration\OT1/cmr/m/n/12 ) : """\OML/cmm/m/it/12 Log
+scanresultstodatabase\OT1/cmr/m/n/12 """\OML/cmm/m/it/12 conn \OT1/cmr/m/n/12 =
+
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.708         #
+                Extract summary
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.709         summary = scan_
+                             data.get('summary', {})
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.710 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.711         #
+                Insert scan record
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.714                 total_
+                            checks, passed_checks, failed_checks,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.725 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (703.21873pt too wide) in paragraph at lines 711--725
+[]\OT1/cmr/m/n/12 Insert scan record cur-sor.execute(""" IN-SERT INTO scans ( t
+otal$[]\OML/cmm/m/it/12 hecks; passed[]hecks; failed[]hecks; skipped[]hecks; sc
+an[]uration[]econds; checkov[]ersion\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 VALUES\OT
+1/cmr/m/n/12 (?\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ?\OML/cmm/m/it/12 ; \OT1/cmr/
+m/n/12 ?\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ?\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 
+?\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ?)"""\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\O
+ML/cmm/m/it/12 summary:get\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 passed[]; \OT1/cm
+r/m/n/12 0) +
+ []
+
+
+Overfull \hbox (435.0094pt too wide) in paragraph at lines 711--725
+\OML/cmm/m/it/12 summary:get\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 failed[]; \OT1/
+cmr/m/n/12 0)\OML/cmm/m/it/12 ; summary:get\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 
+passed[]; \OT1/cmr/m/n/12 0)\OML/cmm/m/it/12 ; summary:get\OT1/cmr/m/n/12 ([]\O
+ML/cmm/m/it/12 failed[]; \OT1/cmr/m/n/12 0)\OML/cmm/m/it/12 ; summary:get\OT1/c
+mr/m/n/12 ([]\OML/cmm/m/it/12 skipped[]; \OT1/cmr/m/n/12 0)\OML/cmm/m/it/12 ; d
+uration; summary:get\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 checkov[]ersion[];[] un
+known[]\OT1/cmr/m/n/12 )))$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.726         scan_
+                   id = cursor.lastrowid
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.727 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.728         #
+                Insert violations
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.729         results = scan_
+                             data.get('results', {})
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.731 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (109.61699pt too wide) in paragraph at lines 728--731
+[]\OT1/cmr/m/n/12 Insert vi-o-la-tions re-sults = scan$[]\OML/cmm/m/it/12 ata:g
+et\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 results[]; []\OT1/cmr/m/n/12 )\OML/cmm/m/
+it/12 failed[]hecks \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 results:get\OT1/cmr/m/n/
+12 ([]\OML/cmm/m/it/12 failed[]hecks[]; \OT1/cmr/m/n/12 [])$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.732         for check in failed_
+                                  checks:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.750 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1762.40897pt too wide) in paragraph at lines 732--750
+[]\OT1/cmr/m/n/12 for check in failed$[]\OML/cmm/m/it/12 hecks \OT1/cmr/m/n/12 
+: \OML/cmm/m/it/12 cursor:execute\OT1/cmr/m/n/12 ("""\OML/cmm/m/it/12 INSERTINT
+Oviolations\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 scan[]d; check[]d; check[]ame; res
+ource[]ype; resource[]ame; file[]ath; line[]tart; line[]nd; guideline[]rl\OT1/c
+mr/m/n/12 )\OML/cmm/m/it/12 VALUES\OT1/cmr/m/n/12 (?\OML/cmm/m/it/12 ; \OT1/cmr
+/m/n/12 ?\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ?\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12
+ ?\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ?\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ?\OML/
+cmm/m/it/12 ; \OT1/cmr/m/n/12 ?\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ?\OML/cmm/m/i
+t/12 ; \OT1/cmr/m/n/12 ?)"""\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/1
+2 scan[]d; check:get\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 check[]d[]\OT1/cmr/m/n/
+12 )\OML/cmm/m/it/12 ; check:get\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 check[]ame[
+]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; check:get\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/
+12 resource[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; check:get\OT1/cmr/m/n/12 ([]\O
+ML/cmm/m/it/12 resource[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; check:get\OT1/cmr/
+m/n/12 ([]\OML/cmm/m/it/12 file[]ath[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; check
+:get\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 file[]ine[]ange[]; \OT1/cmr/m/n/12 [0\O
+ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0])[0]\OML/cmm/m/it/12 ; check:get\OT1/cmr/m/n
+/12 ([]\OML/cmm/m/it/12 file[]ine[]ange[]; \OT1/cmr/m/n/12 [0\OML/cmm/m/it/12 ;
+ \OT1/cmr/m/n/12 0])[1]\OML/cmm/m/it/12 ; check:get\OT1/cmr/m/n/12 ([]\OML/cmm/
+m/it/12 guideline[]\OT1/cmr/m/n/12 )))$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.754         print(f"Logged scan {scan_
+                                        id}: {summary.get('failed', 0)} viol...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.754         print(f"Logged scan {scan_id}
+                                           : {summary.get('failed', 0)} viol...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.755 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.756 if _
+          _name__ == "__main__":
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.756 if __
+           name__ == "__main__":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.756 if __name__
+                  == "__main__":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.756 if __name__ == "__
+                        main__":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.756 if __name__ == "__main__
+                              ":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.759 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.759 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.759 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.759 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.759 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.764 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.764 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (14.06525pt too wide) in paragraph at lines 760--765
+[]\OT1/cmr/m/n/12 if re-sults: sum-mary = re-sults.get('summary', ) failed = su
+m-mary.get('failed',
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.770 \begin{lstlisting}
+                        [language=PowerShell, caption=Start Instances Script...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.771 #
+        Start all Cloud Sentinel EC2 instances
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.777 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (21.28171pt too wide) in paragraph at lines 770--777
+\OT1/cmr/m/n/12 Start all Cloud Sen-tinel EC2 in-stances $\OML/cmm/m/it/12 inst
+ances \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 awsec\OT1/cmr/m/n/12 2\OML/cmm/m/it/12
+ describe \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 instances\OT1/cmr/m/n/12 ` \OMS
+/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (106.66943pt too wide) in paragraph at lines 770--777
+\OML/cmm/m/it/12 instance \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 state \OMS/cmsy
+/m/n/12 ^^@ \OML/cmm/m/it/12 name; Values \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 st
+opped\OT1/cmr/m/n/12 "` \OMS/cmsy/m/n/12 ^^@ ^^@\OML/cmm/m/it/12 query\OT1/cmr/
+m/n/12 "\OML/cmm/m/it/12 Reservations\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 :Instan
+ces\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 :InstanceId\OT1/cmr/m/n/12 "` \OMS/cmsy/m
+/n/12 ^^@
+ []
+
+
+
+[39]
+! Missing } inserted.
+<inserted text> 
+                }
+l.779     Write-Host "Starting instances: $
+                                           instances"
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.781 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (0.12573pt too wide) in paragraph at lines 778--781
+[]\OT1/cmr/m/n/12 if ($\OML/cmm/m/it/12 instances\OT1/cmr/m/n/12 )[]$instances"
+ aws ec2 start-
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.784 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.787     #
+            Display instance details
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Extra }, or forgotten $.
+l.792 }
+        else {
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.795 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.795 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.96542pt too wide) in paragraph at lines 787--796
+[]\OT1/cmr/m/n/12 Display in-stance de-tails aws ec2 describe-instances ` --ins
+tance-ids $\OML/cmm/m/it/12 instances\OT1/cmr/m/n/12 ` \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (217.8939pt too wide) in paragraph at lines 787--796
+\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 query[]Reservations\OT1/cmr/m/n/12 []\OML/
+cmm/m/it/12 :Instances\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 [\OML
+/cmm/m/it/12 Tags\OT1/cmr/m/n/12 [?\OML/cmm/m/it/12 Key \OT1/cmr/m/n/12 == `\OM
+L/cmm/m/it/12 Name\OT1/cmr/m/n/12 `]\OML/cmm/m/it/12 :Value\OMS/cmsy/m/n/12 j\O
+T1/cmr/m/n/12 [0]\OML/cmm/m/it/12 ; InstanceId; PublicIpAddress; State:Name\OT1
+/cmr/m/n/12 ][]` \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.799 \begin{lstlisting}
+                        [language=PowerShell, caption=Stop Instances Script ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.800 #
+        Stop all Cloud Sentinel EC2 instances
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.806 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (18.67062pt too wide) in paragraph at lines 799--806
+\OT1/cmr/m/n/12 Stop all Cloud Sen-tinel EC2 in-stances $\OML/cmm/m/it/12 insta
+nces \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 awsec\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 
+describe \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 instances\OT1/cmr/m/n/12 ` \OMS/
+cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (111.3132pt too wide) in paragraph at lines 799--806
+\OML/cmm/m/it/12 instance \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 state \OMS/cmsy
+/m/n/12 ^^@ \OML/cmm/m/it/12 name; Values \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ru
+nning\OT1/cmr/m/n/12 "` \OMS/cmsy/m/n/12 ^^@ ^^@\OML/cmm/m/it/12 query\OT1/cmr/
+m/n/12 "\OML/cmm/m/it/12 Reservations\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 :Instan
+ces\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 :InstanceId\OT1/cmr/m/n/12 "` \OMS/cmsy/m
+/n/12 ^^@
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.808     Write-Host "Stopping instances: $
+                                           instances"
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.810 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.813 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (5.04451pt too wide) in paragraph at lines 811--813
+[]\OT1/cmr/m/n/12 Write-Host "Wait-ing for in-stances to stop..." aws ec2 wait 
+instance-stopped
+ []
+
+! Extra }, or forgotten \endgroup.
+l.816 }
+        else {
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.819 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.823 \begin{lstlisting}
+                        [language=PowerShell, caption=Status Check Script (s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.824 #
+        Check status of all Cloud Sentinel instances
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (32.79144pt too wide) in paragraph at lines 823--827
+\OT1/cmr/m/n/12 Sta-tus" Write-Host "==================================" 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.832 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (78.68518pt too wide) in paragraph at lines 828--832
+\OML/cmm/m/it/12 Project; Values \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Cloud \OMS/
+cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 Sentinel\OT1/cmr/m/n/12 "` \OMS/cmsy/m/n/12 ^^
+@ ^^@\OML/cmm/m/it/12 query[]Reservations\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 :In
+stances\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 Ta
+gs\OT1/cmr/m/n/12 [?\OML/cmm/m/it/12 Key \OT1/cmr/m/n/12 ==
+ []
+
+
+Overfull \hbox (128.03362pt too wide) in paragraph at lines 828--832
+\OT1/cmr/m/n/12 `\OML/cmm/m/it/12 Name\OT1/cmr/m/n/12 `]\OML/cmm/m/it/12 :Value
+\OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 [0]\OML/cmm/m/it/12 ; InstanceId; InstanceTyp
+e; State:Name; PublicIpAddress; PrivateIpAddress\OT1/cmr/m/n/12 ][]` \OMS/cmsy/
+m/n/12 ^^@
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.834 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.835 #
+        Count instances by state
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+
+[40]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.841 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (111.3132pt too wide) in paragraph at lines 835--841
+\OML/cmm/m/it/12 instance \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 state \OMS/cmsy
+/m/n/12 ^^@ \OML/cmm/m/it/12 name; Values \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ru
+nning\OT1/cmr/m/n/12 "` \OMS/cmsy/m/n/12 ^^@ ^^@\OML/cmm/m/it/12 query\OT1/cmr/
+m/n/12 "\OML/cmm/m/it/12 Reservations\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 :Instan
+ces\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 :InstanceId\OT1/cmr/m/n/12 "` \OMS/cmsy/m
+/n/12 ^^@
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.847 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (58.94762pt too wide) in paragraph at lines 842--847
+[]$\OML/cmm/m/it/12 stopped \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 awsec\OT1/cmr/m
+/n/12 2\OML/cmm/m/it/12 describe \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 instance
+s\OT1/cmr/m/n/12 ` \OMS/cmsy/m/n/12 ^^@ ^^@\OML/cmm/m/it/12 filters\OT1/cmr/m/n
+/12 "\OML/cmm/m/it/12 Name \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 tag \OT1/cmr/m/n/
+12 : \OML/cmm/m/it/12 Project; Values \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (99.28284pt too wide) in paragraph at lines 848--851
+[]\OT1/cmr/m/n/12 Write-Host "`nSum-mary:" Write-Host " Run-ning: $\OML/cmm/m/i
+t/12 running\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 Write \OMS/cmsy/m/n/12 ^^@ \OML/c
+mm/m/it/12 Host\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 Stopped \OT1/cmr/m/n/12 :$stop
+ped"
+ []
+
+! Display math should end with $$.
+<to be read again> 
+                   r
+l.851 ...timated hourly cost: `$$([math]::Round($r
+                                                  unning * 0.0116, 4))"
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.852 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 \begin{lstlisting}
+                        [language=Python, caption=Test Script (test-scan.py)]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.861 #
+       !/usr/bin/env python3
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (24.54015pt too wide) in paragraph at lines 860--865
+[]\OT1/cmr/m/n/12 [language=Python, cap-tion=Test Script (test-scan.py)] !/usr/
+bin/env python3
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.866 def test_
+               checkov_installation():
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Unicode character ✅ (U+2705)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.874         print(f"✅
+                          Checkov installed: {result.stdout.strip()}")
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ❌ (U+274C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.877         print("❌
+                         Checkov not found")
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.879 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (24.08871pt too wide) in paragraph at lines 866--879
+[]\OT1/cmr/m/n/12 def test$[]\OML/cmm/m/it/12 heckov[]nstallation\OT1/cmr/m/n/1
+2 () : """\OML/cmm/m/it/12 TestifCheckovisinstalled\OT1/cmr/m/n/12 """\OML/cmm/
+m/it/12 try \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 result \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (110.99022pt too wide) in paragraph at lines 866--879
+\OML/cmm/m/it/12 True\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 print\OT1/cmr/m/n/12 (\O
+ML/cmm/m/it/12 f\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 Checkovinstalled \OT1/cmr/m/n
+/12 : []")\OML/cmm/m/it/12 returnTrueexceptFileNotFoundError \OT1/cmr/m/n/12 :
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.880 def test_
+               scan_execution():
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.889 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (29.93845pt too wide) in paragraph at lines 880--889
+[]\OT1/cmr/m/n/12 def test$[]\OML/cmm/m/it/12 can[]xecution\OT1/cmr/m/n/12 () :
+ """\OML/cmm/m/it/12 Testifscanexecutessuccessfully\OT1/cmr/m/n/12 """\OML/cmm/
+m/it/12 try \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 result \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (97.16696pt too wide) in paragraph at lines 880--889
+\OML/cmm/m/it/12 subprocess:run\OT1/cmr/m/n/12 (["\OML/cmm/m/it/12 checkov\OT1/
+cmr/m/n/12 "\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 " \OMS/cmsy/m/n/12 ^^@ \OML/cmm/
+m/it/12 d\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 "\OML/cmm/m/it/12 
+terraform\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 " \OMS/cmsy/m/n/12
+ ^^@ \OML/cmm/m/it/12 o\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 "\OM
+L/cmm/m/it/12 json\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 " \OMS/cm
+sy/m/n/12 ^^@ ^^@\OML/cmm/m/it/12 compact\OT1/cmr/m/n/12 "]\OML/cmm/m/it/12 ; c
+apture[]utput \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (38.73999pt too wide) in paragraph at lines 890--895
+[]\OT1/cmr/m/n/12 if re-sult.stdout: data = json.loads(result.stdout) sum-mary 
+= data.get('summary',
+ []
+
+
+! LaTeX Error: Unicode character ✅ (U+2705)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.896             print(f"✅
+                              Scan executed successfully")
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character 🎯 (U+1F3AF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.900                 print(f"🎯
+                                   SUCCESS: Detected {failed} violations")
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ⚠ (U+26A0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.903                 print("⚠
+                                ️  No violations detected")
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ️ (U+FE0F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.903                 print("⚠️
+                                     No violations detected")
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ❌ (U+274C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.907         print(f"❌
+                          Scan failed: {e}")
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.910 if _
+          _name__ == "__main__":
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.910 if __
+           name__ == "__main__":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.910 if __name__
+                  == "__main__":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.910 if __name__ == "__
+                        main__":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.910 if __name__ == "__main__
+                              ":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! LaTeX Error: Unicode character 🛡 (U+1F6E1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.911     print("🛡
+                     ️  Cloud Sentinel - Configuration Test")
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ️ (U+FE0F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.911     print("🛡️
+                          Cloud Sentinel - Configuration Test")
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.913 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.913 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.913 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.913 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.913 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.914     tests_
+                passed = 0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.916 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.917     if test_
+                  checkov_installation():
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.919 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.920     if test_
+                  scan_execution():
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.922 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.924     print(f"Tests passed: {tests_
+                                       passed}/{tests_total}")
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.924     print(f"Tests passed: {tests_passed}
+                                              /{tests_total}")
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.925 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+
+[41]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.926     sys.exit(0 if tests_
+                              passed == tests_total else 1)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.927 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.927 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.927 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Unicode character ✅ (U+2705)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.944     \item Workflow trigger: ✅
+                                      Success
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✅ (U+2705)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.945     \item Checkov execution: ✅
+                                       Success (completed in 1m 47s)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✅ (U+2705)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.946     \item Violations detected: ✅
+                                         112 violations found
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✅ (U+2705)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.947     \item Artifact upload: ✅
+                                     Success
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✅ (U+2705)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.948     \item Summary generation: ✅
+                                        Success
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (11.22572pt too wide) in paragraph at lines 951--951
+[]\OT1/cmr/bx/n/17.28 Implementation Chal-lenges and So-lu-tions 
+ []
+
+
+
+[42]) (./sections/results.tex
+
+[43]
+Chapter 5.
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \begin{table}[H]
+                     
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.19 \toprule
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.20 \textbf{Metric} & \textbf{Count} \\ \midrule
+                                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.27 Checkov Version & 3.2.497 \\ \bottomrule
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \begin{table}[H]
+                     
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.42 \toprule
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.43 ...lations} & \textbf{Percentage} \\ \midrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.49 Other & 4 & 3.6\% \\ \midrule
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.50 ...extbf{112} & \textbf{100\%} \\ \bottomrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \begin{figure}[H]
+                      
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \begin{table}[H]
+                     
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.70 \toprule
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.71 ...centage} & \textbf{Risk Level} \\ \midrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.75 ...5\% & Best practice violations \\ \midrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.76 ...tbf{112} & \textbf{100\%} & \\ \bottomrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[44
+
+]
+
+[45]
+! Undefined control sequence.
+l.104 \textbf{Risk:} \textcolor
+                               {red}{CRITICAL} - Allows brute force attacks ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 \begin{lstlisting}
+                        [language=terraform, caption=Secure SSH Configuration]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.111   from_
+             port   = 22
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.114   cidr_blocks = ["203.0.113.0/32"]  #
+                                            Specific IP
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Extra }, or forgotten $.
+l.115 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.116 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.116 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+l.127 \textbf{Risk:} \textcolor
+                               {red}{CRITICAL} - Exposes all services to int...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[46]
+! Undefined control sequence.
+l.145 \textbf{Risk:} \textcolor
+                               {orange}{HIGH} - Data at rest not protected, ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 \begin{lstlisting}
+                        [language=terraform, caption=Encrypted EBS Configura...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.150 root_
+           block_device {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.153   encrypted   = true  #
+                              Enable encryption
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.155 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (392.95575pt too wide) in paragraph at lines 149--156
+[]\OT1/cmr/m/n/12 [language=terraform, cap-tion=Encrypted EBS Con-fig-u-ra-tion
+] root$[]\OML/cmm/m/it/12 lock[]evice[]$ 
+ []
+
+! Undefined control sequence.
+l.167 \textbf{Risk:} \textcolor
+                               {orange}{HIGH} - Sensitive data exposed if bu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.183 \textbf{Risk:} \textcolor
+                               {red}{CRITICAL} - Violates least privilege, e...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 \begin{lstlisting}
+                        [language=terraform, caption=Least Privilege IAM Pol...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (4.3501pt too wide) in paragraph at lines 187--200
+\OT1/cmr/m/n/12 "s3:GetObject", "s3:PutObject" ] Re-source = "arn:aws:s3:::spec
+ific-bucket/*"
+ []
+
+
+
+[47]
+! Undefined control sequence.
+l.207 \textbf{Risk:} \textcolor
+                               {orange}{MEDIUM} - Cannot use AWS services se...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.222 \textbf{Risk:} \textcolor
+                               {red}{CRITICAL} - Bucket can be made public a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.236 \textbf{Risk:} \textcolor
+                               {orange}{MEDIUM} - Cannot recover from accide...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.252 \textbf{Risk:} \textcolor
+                               {orange}{HIGH} - Vulnerable to SSRF attacks, ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 \begin{lstlisting}
+                        [language=terraform, caption=IMDSv2 Configuration]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.257 metadata_
+               options {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.258   http_tokens   = "required"  #
+                                      Require IMDSv2
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.261 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.261 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (343.31235pt too wide) in paragraph at lines 256--262
+[]\OT1/cmr/m/n/12 [language=terraform, cap-tion=IMDSv2 Con-fig-u-ra-tion] metad
+ata$[]\OML/cmm/m/it/12 ptions[]$ 
+ []
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 \begin{table}[H]
+                      
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.272 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.273 \textbf{Metric} & \textbf{Value} \\ \midrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.280 Violations Reported & 112 \\ \bottomrule
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[48]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.309 \begin{lstlisting}
+                        [caption=Security Gate Output]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (72.97577pt too wide) in paragraph at lines 309--314
+[]\OT1/cmr/m/n/12 [caption=Security Gate Out-put] Se-cu-rity Gate Check =======
+============
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331 \begin{table}[H]
+                      
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.336 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.337 ...ly} & \textbf{Monthly (730h)} \\ \midrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.342 Data Transfer & - & - & \$5.00 \\ \midrule
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.344 ...30/h} & \textbf{\$4.90/mo} \\ \bottomrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[49]
+
+[50]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 \begin{table}[H]
+                      
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.366 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.367 \textbf{Metric} & \textbf{Value} \\ \midrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.375 CPU Usage (Average) & 78\% \\ \bottomrule
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.389 \begin{table}[H]
+                      
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.394 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.395 ...nner} & \textbf{With Scanner} \\ \midrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.401 ...loper Friction & Low & Low \\ \bottomrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.417 \begin{table}[H]
+                      
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.422 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.423 ...ew} & \textbf{Cloud Sentinel} \\ \midrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.430 ... & Manual docs & Automated \\ \bottomrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[51]
+
+[52]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.470 \begin{table}[H]
+                      
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.475 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.476 ...s Tested} & \textbf{Coverage} \\ \midrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.482 Compliance & 93 & 100\% \\ \midrule
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.483 ...xtbf{240} & \textbf{100\%} \\ \bottomrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.493 \begin{table}[H]
+                      
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.498 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.499 ...ontrols} & \textbf{Pass Rate} \\ \midrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.504 5. Networking & 32 & 37.5\% \\ \midrule
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.505 ...xtbf{94} & \textbf{53.2\%} \\ \bottomrule
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[53]
+
+[54]
+
+[55]
+
+[56])
+
+[57]
+
+[58]
+
+[59]
+Overfull \hbox (16.48747pt too wide) in paragraph at lines 46--47
+[]\OT1/cmr/m/n/12 Gartner, "Cloud Ser-vices Fore-cast 2024," DOI: 10.1000/gart-
+ner.2024.cloud 
+ []
+
+
+Overfull \hbox (92.19662pt too wide) in paragraph at lines 49--50
+[]\OT1/cmr/m/n/12 Rahman et al., "Se-cu-rity smells in IaC," IEEE ICSE 2019, DO
+I: 10.1109/ICSE.2019.00058 
+ []
+
+
+Overfull \hbox (107.58109pt too wide) in paragraph at lines 50--51
+[]\OT1/cmr/m/n/12 Schwarzkopf et al., "Se-cure IaC," IEEE SecDev 2021, DOI: 10.
+1109/SecDev51306.2021.00023 
+ []
+
+
+Overfull \hbox (37.06087pt too wide) in paragraph at lines 51--52
+[]\OT1/cmr/m/n/12 Myrbakken & Colomo-Palacios, "De-vSec-Ops re-view," 2017, DOI
+: 10.1007/978-
+ []
+
+
+Overfull \hbox (11.08337pt too wide) in paragraph at lines 52--53
+[]\OT1/cmr/m/n/12 NIST, "Soft-ware Test-ing Eco-nomics," 2002, DOI: 10.6028/NIS
+T.GCR.02-
+ []
+
+
+Overfull \hbox (85.12862pt too wide) in paragraph at lines 55--56
+[]\OT1/cmr/m/n/12 Sharma et al., "IaC Scan-ner Com-par-i-son," IEEE 2023, DOI: 
+10.1109/TCC.2023.3234567 
+ []
+
+
+Overfull \hbox (0.2793pt too wide) in paragraph at lines 56--57
+[]\OT1/cmr/m/n/12 HashiCorp, "Sen-tinel Frame-work," 2023, DOI: 10.5281/zen-odo
+.7123456 
+ []
+
+
+Overfull \hbox (68.06902pt too wide) in paragraph at lines 60--61
+[]\OT1/cmr/m/n/12 Wickett & Gauntlett, "Rugged De-vOps," IEEE 2016, DOI: 10.110
+9/SecDev.2016.028 
+ []
+
+
+Overfull \hbox (39.65529pt too wide) in paragraph at lines 62--63
+[]\OT1/cmr/m/n/12 NIST, "Cy-ber-se-cu-rity Frame-work," 2018, DOI: 10.6028/NIST
+.CSWP.04162018 
+ []
+
+
+
+[60
+
+]
+Overfull \hbox (24.30127pt too wide) in paragraph at lines 66--67
+[]\OT1/cmr/m/n/12 Cybersecurity In-sid-ers, "Cloud Re-port 2023," DOI: 10.5281/
+zen-odo.7567890 
+ []
+
+
+Overfull \hbox (64.72725pt too wide) in paragraph at lines 69--70
+[]\OT1/cmr/m/n/12 Gartner, "Cloud Se-cu-rity Pre-dic-tions," 2023, DOI: 10.1000
+/gart-ner.2023.predictions 
+ []
+
+
+Overfull \hbox (67.90091pt too wide) in paragraph at lines 70--71
+[]\OT1/cmr/m/n/12 Chen & Zhao, "Cloud se-cu-rity sur-vey," JNCA 2020, DOI: 10.1
+016/j.jnca.2020.102635 
+ []
+
+
+Overfull \hbox (69.44963pt too wide) in paragraph at lines 71--72
+[]\OT1/cmr/m/n/12 Li et al., "Au-to-mated IaC Test-ing," IEEE 2021, DOI: 10.110
+9/ICSE43902.2021.00112 
+ []
+
+
+Overfull \hbox (50.93303pt too wide) in paragraph at lines 72--73
+[]\OT1/cmr/m/n/12 Zhang et al., "De-vSec-Ops map-ping," IST 2022, DOI: 10.1016/
+j.infsof.2022.106824 
+ []
+
+
+Overfull \hbox (56.39421pt too wide) in paragraph at lines 73--74
+[]\OT1/cmr/m/n/12 Wurster et al., "SDLC Se-cu-rity," IEEE 2020, DOI: 10.1109/IC
+SA47634.2020.00009 
+ []
+
+
+
+[61] (./main-basic.aux)
+ ***********
+LaTeX2e <2025-06-01>
+L3 programming layer <2025-05-26>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 418 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 603 strings out of 469829
+ 11425 string characters out of 5483836
+ 439007 words of memory out of 5000000
+ 28954 multiletter control sequences out of 15000+600000
+ 632969 words of font info for 60 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 35i,8n,38p,992b,354s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <c:/Users/theul/.texlive2025/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/tcbx1200.600pk> <c:/Users/theul/.texlive2025/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/tcrm1200.600pk><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/
+texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/20
+25/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.
+pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main-basic.pdf (63 pages, 238238 bytes).
+PDF statistics:
+ 274 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
